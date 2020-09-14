@@ -4,7 +4,7 @@ path: "/gitcredentials"
 date: "2020-06-17"
 author: "Almin"
 excerpt: ''
-tags: ["rant", "git", "filesize"]
+tags: ["git", "setup", "windows"]
 ---
 
 
