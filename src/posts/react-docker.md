@@ -12,6 +12,7 @@ tags: ["react", "docker", "development"]
 An easy way to **dockerize** your React (create-react-app) would be like this:
 
 - Add this as a dockerfile into the root of your project. 
+
 ``` dockerfile
 # pull official base image
 FROM node:13.12.0-alpine
