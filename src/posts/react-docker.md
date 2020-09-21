@@ -2,7 +2,7 @@
 title: "Dockerizing React"
 path: "/react-docker-development"
 date: "2020-09-21"
-coverImage: "../images/hello.jpg"
+coverImage: "../images/docker+react.png"
 author: "Almin"
 excerpt: 'Dockerize your development enviroment'
 tags: ["react", "docker", "development"]
