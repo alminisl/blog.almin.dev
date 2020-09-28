@@ -12,7 +12,7 @@ WSL2 is a super nice and powerfull tool for developing on windows. I'm someone w
 
 Some of the recent issues I've seen with colleagues and myself, when using WSL2, consists mostly of things we don't understand how things work. 
 
-## WSL2 has slow / needs a lot of time to do something basic like `git status` or `npm install` 
+## WSL2 has slow / needs a lot of time to do something basic like git status or npm install
 
 The solution for this is simple, just install the project in the filesystem of WSL and not on Windows. So the filepath should be something like:
  ```bash
