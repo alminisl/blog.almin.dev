@@ -27,8 +27,8 @@ module.exports = {
       },
       // IF you need more subpages / headers use this 
       // {
-      //   title: 'Showcase',
-      //   path: '/showcase',
+      //   title: 'TIL',
+      //   path: '/test',
       // },
       // {
       //   title: 'Example',
