@@ -19,7 +19,7 @@ Example:
 
 ```js
 curl -H 'Accept: application/vnd.twitchtv.v5+json' \
--H 'Client-ID: uo6dggojyb8d6soh92zknwmi5ej1q2' \
+-H 'Client-ID: XXXXXXXX' \
 -X GET 'https://api.twitch.tv/kraken/games/top'
 ```
 
@@ -27,8 +27,8 @@ However, with the new **Helix** API, the request looks liek this:
 
 ```js
 curl -X GET 'https://api.twitch.tv/helix/games/top' \
--H 'Authorization: Bearer cfabdegwdoklmawdzdo98xt2fo512y' \
--H 'Client-Id: uo6dggojyb8d6soh92zknwmi5ej1q2'
+-H 'Authorization: Bearer XXXXXXXX' \
+-H 'Client-Id: XXXXXXX'
 ```
 
 As we can see there is now a `Authorization` header which requires us to send a Bearer token, there are 3 ways of getting a token. ([Reference]([Getting Tokens: OAuth | Twitch Developers](https://dev.twitch.tv/docs/authentication/getting-tokens-oauth)))
