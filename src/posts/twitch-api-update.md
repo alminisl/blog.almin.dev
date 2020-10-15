@@ -67,3 +67,6 @@ async function getCredentials() {
 So the token will be request, when someone new is accessing the website where I save the token on the frontend into a cookie.
 
 This is a Fast fix, my current plan is to refactor this small service to be able to save the token once and everyone just uses one token until it expires or is being renewed.
+
+
+Note: Securet the endpoint if you are using it on a external server. My go to would be just using CORS for this.
