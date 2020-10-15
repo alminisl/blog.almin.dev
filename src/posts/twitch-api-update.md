@@ -1,0 +1,69 @@
+---
+
+title: "Migrating from Kraken to Helix Twitch API"
+date: "2020-10-15"
+path: "/twitch-api-migration"
+author: "Almin"
+excerpt: "Kraken to Helix update"
+tags: ["personal", "project", "API", "twitch"]
+
+---
+
+Few months back I've seen that my website [Splitstream](https://splitstream.net/) does not work. The issue seems to be that twitch changed their API policy. They switched from the Kraken to Helix API.
+
+The official documentation of Twitch suggests this way of handling authentication with the [Helix API]([Authentication | Twitch Developers](https://dev.twitch.tv/docs/authentication))
+
+The old way with using ***Kraken*** is doing a API request with just the `Client-ID` .
+
+Example:
+
+```js
+curl -H 'Accept: application/vnd.twitchtv.v5+json' \
+-H 'Client-ID: uo6dggojyb8d6soh92zknwmi5ej1q2' \
+-X GET 'https://api.twitch.tv/kraken/games/top'
+```
+
+However, with the new **Helix** API, the request looks liek this:
+
+```js
+curl -X GET 'https://api.twitch.tv/helix/games/top' \
+-H 'Authorization: Bearer cfabdegwdoklmawdzdo98xt2fo512y' \
+-H 'Client-Id: uo6dggojyb8d6soh92zknwmi5ej1q2'
+```
+
+As we can see there is now a `Authorization` header which requires us to send a Bearer token, there are 3 ways of getting a token. ([Reference]([Getting Tokens: OAuth | Twitch Developers](https://dev.twitch.tv/docs/authentication/getting-tokens-oauth)))
+
+- First way Implicite code flow
+  
+  - Send the user you want to authenticate to your registered redirect URI, which in human language means that the user should `Authorize` the app in a seperate window / popup which will be open, kinda like the google login things we see.
+    
+- Second way is OAuth authorization code flow
+  
+  - To be honest it looks the same as the first one, with the only change is that there is an extra step with an Authrozation code.. I really have not dug deeper into it.
+    
+- The third way, OAuth client credentials flow, which in the end I used and I think is the "easiest" for my use case. I Prefere it because My users do not have to be redirected somewhere or have to do a login for the app.
+  
+
+In the end I've created a small node server with express, and just added one endpoint which fetches the token. It looks like this:
+
+```javascript
+app.get('/getToken', async function (req, res, next){
+    const dataToReturn = await getCredentials()
+    var dataReturner = dataToReturn.data
+    res.json({data: dataReturner})
+})
+
+
+async function getCredentials() {
+    var secret = SECRET_ID
+    var clientid  = CLIENT_ID
+    const url = 'https://id.twitch.tv/oauth2/token?client_id=' + clientid + '&client_secret=' + secret + '&grant_type=client_credentials'
+    const responseToken = await axios.post(url)
+    
+    return responseToken
+}
+```
+
+So the token will be request, when someone new is accessing the website where I save the token on the frontend into a cookie.
+
+This is a Fast fix, my current plan is to refactor this small service to be able to save the token once and everyone just uses one token until it expires or is being renewed.
