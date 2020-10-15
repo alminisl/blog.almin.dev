@@ -41,7 +41,7 @@ As we can see there is now a `Authorization` header which requires us to send a 
   
   - To be honest it looks the same as the first one, with the only change is that there is an extra step with an Authrozation code.. I really have not dug deeper into it.
     
-- The third way, OAuth client credentials flow, which in the end I used and I think is the "easiest" for my use case. I Prefere it because My users do not have to be redirected somewhere or have to do a login for the app.
+- The third way, OAuth client credentials flow, which in the end I used and I think is the "easiest" for my use case. I Prefere it because My users do not have to be redirected somewhere or have to do a login for the app. Its essentially a server to server communication.
   
 
 In the end I've created a small node server with express, and just added one endpoint which fetches the token. It looks like this:
@@ -50,7 +50,8 @@ In the end I've created a small node server with express, and just added one end
 app.get('/getToken', async function (req, res, next){
     const dataToReturn = await getCredentials()
     var dataReturner = dataToReturn.data
-    res.json({data: dataReturner})
+    // Redis to save the token
+    client.set("token", dataReturner.access_token)
 })
 
 
@@ -59,14 +60,27 @@ async function getCredentials() {
     var clientid  = CLIENT_ID
     const url = 'https://id.twitch.tv/oauth2/token?client_id=' + clientid + '&client_secret=' + secret + '&grant_type=client_credentials'
     const responseToken = await axios.post(url)
-    
     return responseToken
 }
+
+app.get('/getTopgames', async function(req, res, next) {
+    
+    let topGames = await axios.get('https://api.twitch.tv/helix/games/top?first=5', {
+      headers: {
+        'Client-ID': CLIENT_ID,
+        'Authorization':'Bearer ' + client.get("token")
+      }
+    })
+
+    res.json({topGames})
+    
+)}
+ 
 ```
 
-So the token will be request, when someone new is accessing the website where I save the token on the frontend into a cookie.
+I've also migrated all my endpoints to this nodejs Server where my frontend calls my node server which then calls the Twitch API. Think of it like a small wrapper around the twitch API. So now we have a small nodeJs server with the Twitch API calls and it is totally isolated from the frontend which only gets returned the data. 
 
-This is a Fast fix, my current plan is to refactor this small service to be able to save the token once and everyone just uses one token until it expires or is being renewed.
+After you set the token it should be fairly easy to use it in a endpoint.
 
 
 Note: Securet the endpoint if you are using it on a external server. My go to would be just using CORS for this.
