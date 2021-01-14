@@ -53,5 +53,5 @@
 :global ul,
 :global ol {
   margin-top: 0;
-  margin-bottom: 1.75rem;
+  /* margin-bottom: 1.75rem; */
 }
