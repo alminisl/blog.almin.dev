@@ -1,0 +1,4446 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/almin/projects/Blog/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/home/almin/projects/Blog/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "812fa1eea73fb97c1ee46c63dc1a0f8f",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "853a629ac2448b0cc996c27020258e9c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "14f5e30a6e0a4889abdc339bd1569df4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3eb902bb210ffec589105461924b17d1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d559d3e7410dcc2ac0872a0e1fa1f702",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ec9b8fb175bca0e8f94f7d5a0f9f0053",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e8b33e7ba082c02711c6be5f5d397dce",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "61517ec6-ba8e-5ee0-8e79-87c7d58e1112": {
+      "resolve": "/home/almin/projects/Blog/node_modules/babel-preset-gatsby",
+      "id": "61517ec6-ba8e-5ee0-8e79-87c7d58e1112",
+      "name": "babel-preset-gatsby",
+      "version": "0.1.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/babel-preset-gatsby",
+      "packageJson": {
+        "name": "babel-preset-gatsby",
+        "version": "0.1.10",
+        "main": "index.js",
+        "author": "Philipp Spiess <hello@philippspiess.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/plugin-proposal-class-properties",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-dynamic-import",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-transform-runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "^7.4.1"
+          },
+          {
+            "name": "@babel/preset-react",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-plugin-macros",
+            "version": "^2.4.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "534e3ada4b9ba539408c4d1930194bf5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5cb3621154adc1441a518eefcec714c6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "93091e97-02d9-5ceb-9963-8643538d71af": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-source-filesystem",
+      "id": "93091e97-02d9-5ceb-9963-8643538d71af",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/home/almin/projects/Blog/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8ca941327e141378cce30454124298d6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4c02b6a0-b092-52d9-a204-366f467fbe4d": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-source-filesystem",
+      "id": "4c02b6a0-b092-52d9-a204-366f467fbe4d",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "posts",
+        "path": "/home/almin/projects/Blog/src/posts"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "54fb6519f72cf00cab335d075784cce8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f5c02b1d-a134-519c-9341-13ad79539777": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-source-filesystem",
+      "id": "f5c02b1d-a134-519c-9341-13ad79539777",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "/home/almin/projects/Blog/src/pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f6fcafb4775c207e64e9686ed220d444",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "cee838e5-5039-5841-bcb7-eea4dd3b3ca6": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-plugin-postcss",
+      "id": "cee838e5-5039-5841-bcb7-eea4dd3b3ca6",
+      "name": "gatsby-plugin-postcss",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": [],
+        "postCssPlugins": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-plugin-postcss",
+      "packageJson": {
+        "name": "gatsby-plugin-postcss",
+        "description": "Gatsby plugin to handle PostCSS",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "postcss"
+        ],
+        "author": "Marat Dreizin <marat.dreizin@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "postcss-loader",
+            "version": "^3.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "83c6b4f22043b21c6ef2b53a6d3cc149",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b533483d036d97530dbf4f51be762d77",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.12.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild",
+        "onCreateDevServer",
+        "onPostBootstrap",
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.12.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.12.5"
+          },
+          {
+            "name": "async",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.7.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^9.0.1"
+          },
+          {
+            "name": "gatsby-core-utils",
+            "version": "^1.8.0"
+          },
+          {
+            "name": "gatsby-telemetry",
+            "version": "^1.8.1"
+          },
+          {
+            "name": "got",
+            "version": "^10.7.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^9.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.20"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.2.3"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "semver",
+            "version": "^7.3.4"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.27.0"
+          },
+          {
+            "name": "svgo",
+            "version": "1.3.2"
+          },
+          {
+            "name": "uuid",
+            "version": "3.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.12.1"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.12.3"
+          },
+          {
+            "name": "@types/sharp",
+            "version": "^0.26.1"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.10.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^7.0.3"
+          },
+          {
+            "name": "gatsby-plugin-image",
+            "version": "^0.5.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "98f7406b31b7d18a28e6e8ca22ca3bae",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "935156b8-dc69-5b67-8674-a3a371ff05b8": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-transformer-remark",
+      "id": "935156b8-dc69-5b67-8674-a3a371ff05b8",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.8",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/home/almin/projects/Blog/node_modules/gatsby-remark-embed-video",
+            "id": "c29288cd-4665-5d32-a9f8-a48e32be2147",
+            "name": "gatsby-remark-embed-video",
+            "version": "1.7.1",
+            "pluginOptions": {
+              "plugins": [],
+              "related": false,
+              "noIframeBorder": true
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-remark-embed-video"
+          },
+          {
+            "resolve": "/home/almin/projects/Blog/node_modules/gatsby-remark-images",
+            "id": "d5c410e9-e500-58b3-8156-4b593a8b499c",
+            "name": "gatsby-remark-images",
+            "version": "3.0.10",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 800,
+              "quality": 100
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/home/almin/projects/Blog/node_modules/gatsby-remark-prismjs",
+            "id": "d13151dc-fd64-50b0-b768-6beaa40f02ac",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.6",
+            "pluginOptions": {
+              "plugins": [],
+              "classPrefix": "language-",
+              "inlineCodeMarker": null,
+              "aliases": {},
+              "showLineNumbers": false,
+              "noInlineHighlight": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-remark-prismjs"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9be15333812527b96bc41eb6e389faa7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c29288cd-4665-5d32-a9f8-a48e32be2147": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-remark-embed-video",
+      "id": "c29288cd-4665-5d32-a9f8-a48e32be2147",
+      "name": "gatsby-remark-embed-video",
+      "version": "1.7.1",
+      "pluginOptions": {
+        "plugins": [],
+        "related": false,
+        "noIframeBorder": true
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-remark-embed-video",
+      "packageJson": {
+        "name": "gatsby-remark-embed-video",
+        "description": "Embed Videos (Youtube, Vimeo, VideoPress) in Gatsby via Markdown",
+        "version": "1.7.1",
+        "main": "dist/index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Neal Bürger <info@nealbuerger.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@types/node",
+            "version": "^11.11.3"
+          },
+          {
+            "name": "get-video-id",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "cz-conventional-changelog",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "typescript",
+            "version": "^3.3.3333"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "55f7bfe621fe3065018c1adb73dc342f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d5c410e9-e500-58b3-8156-4b593a8b499c": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-remark-images",
+      "id": "d5c410e9-e500-58b3-8156-4b593a8b499c",
+      "name": "gatsby-remark-images",
+      "version": "3.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 800,
+        "quality": 100
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "3.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-definitions",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "query-string",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "59c108c42034200e9c894514ba76dbb2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d13151dc-fd64-50b0-b768-6beaa40f02ac": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-remark-prismjs",
+      "id": "d13151dc-fd64-50b0-b768-6beaa40f02ac",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.2.6",
+      "pluginOptions": {
+        "plugins": [],
+        "classPrefix": "language-",
+        "inlineCodeMarker": null,
+        "aliases": {},
+        "showLineNumbers": false,
+        "noInlineHighlight": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.2.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "77ee336a41b9fca8728fc32faa602620",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2dd3a0e9-ef63-53c9-8d59-7c5fcf2fea21": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-plugin-manifest",
+      "id": "2dd3a0e9-ef63-53c9-8d59-7c5fcf2fea21",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.25",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-hello-friend",
+        "short_name": "hello-friend",
+        "start_url": "/",
+        "background_color": "#292a2d",
+        "theme_color": "#292a2d",
+        "display": "minimal-ui",
+        "icon": "src/images/hello-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "473c38bd0abbb468b7be4439495206bb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/home/almin/projects/Blog",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "1960680d2c5f614209c6a96522e7b3a9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "sourceNodes"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog",
+      "packageJson": {
+        "name": "gatsby-starter-hello-friend",
+        "description": "A simple starter for Gatsby. That's it.",
+        "version": "0.2.0",
+        "keywords": [
+          "gatsby",
+          "minimal",
+          "starter",
+          "blog",
+          "theme",
+          "dark",
+          "light",
+          "personal site"
+        ],
+        "author": "Almin Islamovic",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.76"
+          },
+          {
+            "name": "gatsby-awesome-pagination",
+            "version": "^0.3.3"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-plugin-postcss",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.12.1"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-source-gh-readme",
+            "version": "^1.0.10"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.19"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/plugin-proposal-nullish-coalescing-operator",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-optional-chaining",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^10.0.1"
+          },
+          {
+            "name": "babel-preset-gatsby",
+            "version": "^0.1.6"
+          },
+          {
+            "name": "cssnano",
+            "version": "^4.1.8"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.12.0"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^17.1.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^3.3.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.14.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.1.2"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.12.3"
+          },
+          {
+            "name": "eslint-plugin-react-hooks",
+            "version": "^1.4.0"
+          },
+          {
+            "name": "gatsby-remark-embed-video",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "postcss-import",
+            "version": "^12.0.1"
+          },
+          {
+            "name": "postcss-loader",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "postcss-mixins",
+            "version": "^6.2.1"
+          },
+          {
+            "name": "postcss-nested",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "postcss-preset-env",
+            "version": "^6.5.0"
+          },
+          {
+            "name": "postcss-url",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.15.2"
+          },
+          {
+            "name": "rambdax",
+            "version": "^1.8.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b84d4cbb4785fb7dd00c4f0f36b418bf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f428b15b-ae65-5773-aff1-b31d0342717b": {
+      "resolve": "/home/almin/projects/Blog/node_modules/gatsby-plugin-page-creator",
+      "id": "f428b15b-ae65-5773-aff1-b31d0342717b",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/almin/projects/Blog/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/almin/projects/Blog/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "57851a4a67808770e73d4809fcf9e083",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Almin's Blog",
+        "description": "Welcome to my little corner of the Internet",
+        "copyrights": "",
+        "author": "Almin",
+        "logo": {
+          "src": "",
+          "alt": ""
+        },
+        "logoText": "Almin's Blog",
+        "defaultTheme": "light",
+        "postsPerPage": 5,
+        "showMenuItems": 5,
+        "menuMoreText": "Show more",
+        "mainMenu": [
+          {
+            "title": "About",
+            "path": "/about"
+          }
+        ]
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2021-01-14T14:59:35.710Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c4fad6195c9b9c86526f875d0c0111cd",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "591e3dbd-1122-5da9-a6d1-3e5dbc3e6c84": {
+      "id": "591e3dbd-1122-5da9-a6d1-3e5dbc3e6c84",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fcea0b35fb2c11a0607d2e12b59cbc2b",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/almin/projects/Blog/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2021-01-12T07:52:13.960Z",
+      "accessTime": "2021-01-14T12:02:06.720Z",
+      "changeTime": "2021-01-12T07:52:13.960Z",
+      "birthTime": "2021-01-12T07:52:13.960Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 2096,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286172,
+      "blocks": 8,
+      "atimeMs": 1610625726720,
+      "mtimeMs": 1610437933960,
+      "ctimeMs": 1610437933960,
+      "birthtimeMs": 1610437933960,
+      "atime": "2021-01-14T12:02:06.720Z",
+      "mtime": "2021-01-12T07:52:13.960Z",
+      "ctime": "2021-01-12T07:52:13.960Z",
+      "birthtime": "2021-01-12T07:52:13.960Z"
+    },
+    "02b2781c-4766-5a40-8b50-2fd883c86403": {
+      "id": "02b2781c-4766-5a40-8b50-2fd883c86403",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0fa6f333efd33df4e1653de21198313d",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/Untitled 1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/almin/projects/Blog/src/images/Untitled 1.png",
+      "relativePath": "Untitled 1.png",
+      "extension": "png",
+      "size": 13078,
+      "prettySize": "13.1 kB",
+      "modifiedTime": "2021-01-12T07:52:13.960Z",
+      "accessTime": "2021-01-14T12:02:12.720Z",
+      "changeTime": "2021-01-12T07:52:13.960Z",
+      "birthTime": "2021-01-12T07:52:13.960Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/images",
+      "base": "Untitled 1.png",
+      "ext": ".png",
+      "name": "Untitled 1",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286176,
+      "blocks": 32,
+      "atimeMs": 1610625732720,
+      "mtimeMs": 1610437933960,
+      "ctimeMs": 1610437933960,
+      "birthtimeMs": 1610437933960,
+      "atime": "2021-01-14T12:02:12.720Z",
+      "mtime": "2021-01-12T07:52:13.960Z",
+      "ctime": "2021-01-12T07:52:13.960Z",
+      "birthtime": "2021-01-12T07:52:13.960Z"
+    },
+    "cf3b9981-7181-5126-a692-6b492c5e06e3": {
+      "id": "cf3b9981-7181-5126-a692-6b492c5e06e3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ecb1142fe014d7c0ae9066cc14c3ae12",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/Untitled.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/almin/projects/Blog/src/images/Untitled.png",
+      "relativePath": "Untitled.png",
+      "extension": "png",
+      "size": 31086,
+      "prettySize": "31.1 kB",
+      "modifiedTime": "2021-01-12T07:52:13.960Z",
+      "accessTime": "2021-01-14T12:02:12.720Z",
+      "changeTime": "2021-01-12T07:52:13.960Z",
+      "birthTime": "2021-01-12T07:52:13.960Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/images",
+      "base": "Untitled.png",
+      "ext": ".png",
+      "name": "Untitled",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286179,
+      "blocks": 64,
+      "atimeMs": 1610625732720,
+      "mtimeMs": 1610437933960,
+      "ctimeMs": 1610437933960,
+      "birthtimeMs": 1610437933960,
+      "atime": "2021-01-14T12:02:12.720Z",
+      "mtime": "2021-01-12T07:52:13.960Z",
+      "ctime": "2021-01-12T07:52:13.960Z",
+      "birthtime": "2021-01-12T07:52:13.960Z"
+    },
+    "4efc3d74-5d37-5e8e-a0fa-c675f65c3d35": {
+      "id": "4efc3d74-5d37-5e8e-a0fa-c675f65c3d35",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "86199036ff0ba835f25c9311f5881c96",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/docker+react.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/almin/projects/Blog/src/images/docker+react.png",
+      "relativePath": "docker+react.png",
+      "extension": "png",
+      "size": 33391,
+      "prettySize": "33.4 kB",
+      "modifiedTime": "2021-01-12T07:52:13.960Z",
+      "accessTime": "2021-01-14T12:02:12.720Z",
+      "changeTime": "2021-01-12T07:52:13.960Z",
+      "birthTime": "2021-01-12T07:52:13.960Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/images",
+      "base": "docker+react.png",
+      "ext": ".png",
+      "name": "docker+react",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286188,
+      "blocks": 72,
+      "atimeMs": 1610625732720,
+      "mtimeMs": 1610437933960,
+      "ctimeMs": 1610437933960,
+      "birthtimeMs": 1610437933960,
+      "atime": "2021-01-14T12:02:12.720Z",
+      "mtime": "2021-01-12T07:52:13.960Z",
+      "ctime": "2021-01-12T07:52:13.960Z",
+      "birthtime": "2021-01-12T07:52:13.960Z"
+    },
+    "5da74909-efde-515b-a1f9-7cd828683d65": {
+      "id": "5da74909-efde-515b-a1f9-7cd828683d65",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "20d2ef53a71d2dd13985c679b0f8e708",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/hello-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/almin/projects/Blog/src/images/hello-icon.png",
+      "relativePath": "hello-icon.png",
+      "extension": "png",
+      "size": 8622,
+      "prettySize": "8.62 kB",
+      "modifiedTime": "2021-01-12T07:52:13.960Z",
+      "accessTime": "2021-01-14T12:02:12.720Z",
+      "changeTime": "2021-01-12T07:52:13.960Z",
+      "birthTime": "2021-01-12T07:52:13.960Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/images",
+      "base": "hello-icon.png",
+      "ext": ".png",
+      "name": "hello-icon",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286191,
+      "blocks": 24,
+      "atimeMs": 1610625732720,
+      "mtimeMs": 1610437933960,
+      "ctimeMs": 1610437933960,
+      "birthtimeMs": 1610437933960,
+      "atime": "2021-01-14T12:02:12.720Z",
+      "mtime": "2021-01-12T07:52:13.960Z",
+      "ctime": "2021-01-12T07:52:13.960Z",
+      "birthtime": "2021-01-12T07:52:13.960Z"
+    },
+    "f36f5868-39d5-582b-a52c-becf067f0196": {
+      "id": "f36f5868-39d5-582b-a52c-becf067f0196",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "21dce95e04db8a3a371f19c78ba5d6f6",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/mll.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/almin/projects/Blog/src/images/mll.png",
+      "relativePath": "mll.png",
+      "extension": "png",
+      "size": 50699,
+      "prettySize": "50.7 kB",
+      "modifiedTime": "2021-01-12T07:52:13.960Z",
+      "accessTime": "2021-01-14T12:02:12.720Z",
+      "changeTime": "2021-01-12T07:52:13.960Z",
+      "birthTime": "2021-01-12T07:52:13.960Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/images",
+      "base": "mll.png",
+      "ext": ".png",
+      "name": "mll",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286198,
+      "blocks": 104,
+      "atimeMs": 1610625732720,
+      "mtimeMs": 1610437933960,
+      "ctimeMs": 1610437933960,
+      "birthtimeMs": 1610437933960,
+      "atime": "2021-01-14T12:02:12.720Z",
+      "mtime": "2021-01-12T07:52:13.960Z",
+      "ctime": "2021-01-12T07:52:13.960Z",
+      "birthtime": "2021-01-12T07:52:13.960Z"
+    },
+    "cc34b72f-5410-50ec-8d1a-83a4b06c8b38": {
+      "id": "cc34b72f-5410-50ec-8d1a-83a4b06c8b38",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "69c229440745c6e87221a51106431e1c",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/wslerror.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/almin/projects/Blog/src/images/wslerror.png",
+      "relativePath": "wslerror.png",
+      "extension": "png",
+      "size": 4067,
+      "prettySize": "4.07 kB",
+      "modifiedTime": "2021-01-12T07:52:13.960Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.960Z",
+      "birthTime": "2021-01-12T07:52:13.960Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/images",
+      "base": "wslerror.png",
+      "ext": ".png",
+      "name": "wslerror",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286202,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933960,
+      "ctimeMs": 1610437933960,
+      "birthtimeMs": 1610437933960,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.960Z",
+      "ctime": "2021-01-12T07:52:13.960Z",
+      "birthtime": "2021-01-12T07:52:13.960Z"
+    },
+    "bdd926c9-3a6f-545f-8af6-d3fdee1a6e9f": {
+      "id": "bdd926c9-3a6f-545f-8af6-d3fdee1a6e9f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6871f6b27b75646eb567bc25cd7d7d24",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/hello.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/almin/projects/Blog/src/images/hello.jpg",
+      "relativePath": "hello.jpg",
+      "extension": "jpg",
+      "size": 77622,
+      "prettySize": "77.6 kB",
+      "modifiedTime": "2021-01-12T07:52:13.960Z",
+      "accessTime": "2021-01-14T12:02:12.720Z",
+      "changeTime": "2021-01-12T07:52:13.960Z",
+      "birthTime": "2021-01-12T07:52:13.960Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/images",
+      "base": "hello.jpg",
+      "ext": ".jpg",
+      "name": "hello",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286195,
+      "blocks": 152,
+      "atimeMs": 1610625732720,
+      "mtimeMs": 1610437933960,
+      "ctimeMs": 1610437933960,
+      "birthtimeMs": 1610437933960,
+      "atime": "2021-01-14T12:02:12.720Z",
+      "mtime": "2021-01-12T07:52:13.960Z",
+      "ctime": "2021-01-12T07:52:13.960Z",
+      "birthtime": "2021-01-12T07:52:13.960Z"
+    },
+    "1a376ad9-48ea-5403-bc22-d1ee12540434": {
+      "id": "1a376ad9-48ea-5403-bc22-d1ee12540434",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b0f85c91c3756d7cc6cce39114990a06",
+        "type": "Directory",
+        "description": "Directory \"src/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2021-01-12T07:55:59.170Z",
+      "accessTime": "2021-01-14T12:02:06.720Z",
+      "changeTime": "2021-01-12T07:55:59.170Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "..",
+      "dev": 2096,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286226,
+      "blocks": 8,
+      "atimeMs": 1610625726720,
+      "mtimeMs": 1610438159170,
+      "ctimeMs": 1610438159170,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:06.720Z",
+      "mtime": "2021-01-12T07:55:59.170Z",
+      "ctime": "2021-01-12T07:55:59.170Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "daec9a28-c4b5-537e-9ce9-a3b1c88c6a6c": {
+      "id": "daec9a28-c4b5-537e-9ce9-a3b1c88c6a6c",
+      "children": [
+        "d582182e-5f07-54b7-bffa-e0d6bb2e4cd3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "57319544c700e570da6633607aa2ef0e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/azerothweather.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts/azerothweather.md",
+      "relativePath": "azerothweather.md",
+      "extension": "md",
+      "size": 4595,
+      "prettySize": "4.59 kB",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/posts",
+      "base": "azerothweather.md",
+      "ext": ".md",
+      "name": "azerothweather",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286230,
+      "blocks": 16,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "da1844f9-71af-5987-b066-b9c0aa41c567": {
+      "id": "da1844f9-71af-5987-b066-b9c0aa41c567",
+      "children": [
+        "4fa8314b-fae8-5742-9299-06e072c00aca"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c5e8ce4eff478e9ec34744c3852aca19",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/filesize.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts/filesize.md",
+      "relativePath": "filesize.md",
+      "extension": "md",
+      "size": 2566,
+      "prettySize": "2.57 kB",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/posts",
+      "base": "filesize.md",
+      "ext": ".md",
+      "name": "filesize",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286239,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "9a198136-c6ca-594f-a283-b1687cfd22c8": {
+      "id": "9a198136-c6ca-594f-a283-b1687cfd22c8",
+      "children": [
+        "aef8065c-6f79-54bf-923b-b3905fecdbc5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "25867b8b3a772834fa46e5fbcce5ede1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/functions.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts/functions.md",
+      "relativePath": "functions.md",
+      "extension": "md",
+      "size": 1260,
+      "prettySize": "1.26 kB",
+      "modifiedTime": "2021-01-14T13:10:39.770Z",
+      "accessTime": "2021-01-14T14:48:47.550Z",
+      "changeTime": "2021-01-14T13:10:39.770Z",
+      "birthTime": "2021-01-12T07:55:59.170Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/posts",
+      "base": "functions.md",
+      "ext": ".md",
+      "name": "functions",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 85195,
+      "blocks": 8,
+      "atimeMs": 1610635727550,
+      "mtimeMs": 1610629839770,
+      "ctimeMs": 1610629839770,
+      "birthtimeMs": 1610438159170,
+      "atime": "2021-01-14T14:48:47.550Z",
+      "mtime": "2021-01-14T13:10:39.770Z",
+      "ctime": "2021-01-14T13:10:39.770Z",
+      "birthtime": "2021-01-12T07:55:59.170Z"
+    },
+    "48a05c53-1d7d-5ae5-a942-ad56542421bb": {
+      "id": "48a05c53-1d7d-5ae5-a942-ad56542421bb",
+      "children": [
+        "e6cc90da-de15-51c1-babb-08cab658b8c6"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b3ca554fe3b14ec0dc00dd51f6116c2d",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/gitcredentials.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts/gitcredentials.md",
+      "relativePath": "gitcredentials.md",
+      "extension": "md",
+      "size": 1124,
+      "prettySize": "1.12 kB",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/posts",
+      "base": "gitcredentials.md",
+      "ext": ".md",
+      "name": "gitcredentials",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286243,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "74d74785-0225-5a52-aa07-06df431a4c05": {
+      "id": "74d74785-0225-5a52-aa07-06df431a4c05",
+      "children": [
+        "191a4ed4-eeb4-5995-abcb-e862ec1a0bee"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dbff6bdf1ffafa77b130023a7684fb0d",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/hello.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts/hello.md",
+      "relativePath": "hello.md",
+      "extension": "md",
+      "size": 909,
+      "prettySize": "909 B",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/posts",
+      "base": "hello.md",
+      "ext": ".md",
+      "name": "hello",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286247,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "a781b25e-0722-5a51-8562-67dd4f4839fc": {
+      "id": "a781b25e-0722-5a51-8562-67dd4f4839fc",
+      "children": [
+        "37701346-d104-5de9-ae20-a995c67642cc"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5b60fd05155c0ee783533f9c9516bdbe",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/react-docker.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts/react-docker.md",
+      "relativePath": "react-docker.md",
+      "extension": "md",
+      "size": 2541,
+      "prettySize": "2.54 kB",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/posts",
+      "base": "react-docker.md",
+      "ext": ".md",
+      "name": "react-docker",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286251,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "2123f884-85cb-5612-8b99-d7e8d7a94b66": {
+      "id": "2123f884-85cb-5612-8b99-d7e8d7a94b66",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b6ed2cfc586dacd3c9b3b1bd3ef6a893",
+        "type": "File",
+        "mediaType": "application/octet-stream",
+        "description": "File \"src/posts/test.md.old\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts/test.md.old",
+      "relativePath": "test.md.old",
+      "extension": "old",
+      "size": 1288,
+      "prettySize": "1.29 kB",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/posts",
+      "base": "test.md.old",
+      "ext": ".old",
+      "name": "test.md",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286255,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "2fb0b4f6-a317-5a5d-b69c-bbbde007c9f2": {
+      "id": "2fb0b4f6-a317-5a5d-b69c-bbbde007c9f2",
+      "children": [
+        "a019d1c8-b7b8-5bb2-ab73-0deaf332d93a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ae53f064d1b63b489f808ff3dd54deed",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/twitch-api-update.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts/twitch-api-update.md",
+      "relativePath": "twitch-api-update.md",
+      "extension": "md",
+      "size": 3570,
+      "prettySize": "3.57 kB",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/posts",
+      "base": "twitch-api-update.md",
+      "ext": ".md",
+      "name": "twitch-api-update",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286259,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "35eccb2b-6744-5b46-baca-3961b463e618": {
+      "id": "35eccb2b-6744-5b46-baca-3961b463e618",
+      "children": [
+        "88240830-f5e8-59d2-831a-e4d924833a75"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a3a904fd55c40dc4c4572226bd1047c1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/websiteSpeed.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts/websiteSpeed.md",
+      "relativePath": "websiteSpeed.md",
+      "extension": "md",
+      "size": 7392,
+      "prettySize": "7.39 kB",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/posts",
+      "base": "websiteSpeed.md",
+      "ext": ".md",
+      "name": "websiteSpeed",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286262,
+      "blocks": 16,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "a285e86d-52cf-5640-add2-1b7c8ce46c72": {
+      "id": "a285e86d-52cf-5640-add2-1b7c8ce46c72",
+      "children": [
+        "b0da4e74-7e3c-5c6f-9d8a-708de4c91b4c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fc9b208856bfe3773bb2be8d0ea72366",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/wsl2starter.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/home/almin/projects/Blog/src/posts/wsl2starter.md",
+      "relativePath": "wsl2starter.md",
+      "extension": "md",
+      "size": 2213,
+      "prettySize": "2.21 kB",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/posts",
+      "base": "wsl2starter.md",
+      "ext": ".md",
+      "name": "wsl2starter",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286271,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "d582182e-5f07-54b7-bffa-e0d6bb2e4cd3": {
+      "id": "d582182e-5f07-54b7-bffa-e0d6bb2e4cd3",
+      "children": [],
+      "parent": "daec9a28-c4b5-537e-9ce9-a3b1c88c6a6c",
+      "internal": {
+        "content": "# TLDR\n\nI've made a website, please visit and leave feedback [AzerothWeather](https://www.azerothweather.com/).\n\n> Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes.\n\nby React Documentation\n\nAfter some time thinking about what Side project could I Possibly make, watching a ton of Youtube videos to get some inspiration, I saw a video from Tom Scott ([Video Link](https://www.youtube.com/watch?v=BxV14h0kFs0)) Where he explains his ideas and the way he thinks when making projects. I recommend just watching it for more context and / or motivation :) \n\nSo I took his idea of Star Wars Weather, since I thought it a super cool thing to do, where I can learn a lot since in my mind it sounded like a nice project to learn something new. In my case that was React hooks. So thats how the Idea for  Azeroth Weather happened.\n\nAzeroth weather is similar to Star Wars weather, but the main difference is I'm using Open Weather Map to get the Weather Data and obviously I use World of Warcraft zones and not Star Wars planets to show the weather. \n\n# How is it made\nWhat I learned with this, is that hooks are weird compared to the class implementations. First of all the State object. \n\nThe state object is declared like this \n```\nconst [count, setCount] = useState(0);\n``` \nWhere we have the variable `count` and the function `setCount.` In this case `useState()` is a ***Hook!*** \n\nYou can call this function from an event handler or somewhere else. It’s similar to this.setState in a class, except it doesn’t merge the old and new state together. \n\nAnd of course to have more than one state hook you can just write them down like I did in AzerothWeather like this: \n\n```js\nconst [weather, setWeather] = useState([])\nconst [message, setMessage] = useState('Shadowlands')\nconst [link, setLink] = useState('')\nconst [subtext, setSubtext] = useState('')\n```\n\nThese are some of the states I'm using for the AzerothWeather website and following the documents this seems to be fine. \n\n\n## useEffect()\n\nSomething else which is new is the `useEffect` Hook which replaces the lifecycle methods in React (`ComponentDidMount(), ComponentWillmount()...`). The useEffect hook, when called tells React to run our \"Effect\" function after flushing changes to the DOM. Effects are declared inside the component so they have access to its props and state. By default Reacts runs effects after every render. \n\nTo be honest I still have to dig deeper into the useEffect and figure out how this magic works, but like the useState hook we can have multiple useEffect hooks in one component which is pretty neat.\n\n\nIn AzerothWeather I have used the useEffect hook like this: \n```\n  useEffect(() => {\n    var latitude = ''\n    var longitude = ''\n\n    navigator.geolocation.getCurrentPosition((position) => {\n      latitude = position.coords.latitude\n      longitude = position.coords.longitude\n\n      axios.get('ApiURL' + latitude + '/' + longitude + '/metric')\n        .then(res => {\n          setWeather(res.data.list)\n        })\n        .catch(err => {\n          console.log(err)\n        })\n    })\n\n  }, [])\n  ```\n\nAs we can see there is nothihng extraordinary in it, just a fetch and request for geolocations. Neat trick I also did not know, how to access the GPS data from browser, the answer is `navigator.geolocation.getCurrentPosition`. \n\nThis hook is executed once the website is loaded and the data is being fetched. Important to note is that we have the `[]` as second parameter in the hook which tells the hook to only execute once. By default the hooks is being executed every second, or to be precises by every render. Unlike componentDidMount, useEffect is not executed when the component finished mounting, but each time the component is rendered.That means if you modify the components state inside useEffect, it will cause a re-render of the component, which again causes the execution of useEffect.\n\nThat’s not a great thing if you want to load data only once.\nThat’s why useEffect takes an array of dependencies as a second argument.\n\nSo we pass an empty array.\n\nThat’s it:\n\n```\nuseEffect(() => {\n\n}, [])\n```\n\nIf we pass an empty array to useEffect, it’s only executed after the first render. \n\nAnd thus concludes my little dive into the world of React Hooks! \n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6e9a892c8dbaa0c53169e6b085ce22f2",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Making of Azeroth Weather",
+        "date": "2020-05-26",
+        "path": "/azeroth-weather-makingof",
+        "author": "Almin",
+        "excerpt": "When you are bored, you make a project",
+        "tags": [
+          "personal",
+          "project"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "# TLDR\n\nI've made a website, please visit and leave feedback [AzerothWeather](https://www.azerothweather.com/).\n\n> Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes.\n\nby React Documentation\n\nAfter some time thinking about what Side project could I Possibly make, watching a ton of Youtube videos to get some inspiration, I saw a video from Tom Scott ([Video Link](https://www.youtube.com/watch?v=BxV14h0kFs0)) Where he explains his ideas and the way he thinks when making projects. I recommend just watching it for more context and / or motivation :) \n\nSo I took his idea of Star Wars Weather, since I thought it a super cool thing to do, where I can learn a lot since in my mind it sounded like a nice project to learn something new. In my case that was React hooks. So thats how the Idea for  Azeroth Weather happened.\n\nAzeroth weather is similar to Star Wars weather, but the main difference is I'm using Open Weather Map to get the Weather Data and obviously I use World of Warcraft zones and not Star Wars planets to show the weather. \n\n# How is it made\nWhat I learned with this, is that hooks are weird compared to the class implementations. First of all the State object. \n\nThe state object is declared like this \n```\nconst [count, setCount] = useState(0);\n``` \nWhere we have the variable `count` and the function `setCount.` In this case `useState()` is a ***Hook!*** \n\nYou can call this function from an event handler or somewhere else. It’s similar to this.setState in a class, except it doesn’t merge the old and new state together. \n\nAnd of course to have more than one state hook you can just write them down like I did in AzerothWeather like this: \n\n```js\nconst [weather, setWeather] = useState([])\nconst [message, setMessage] = useState('Shadowlands')\nconst [link, setLink] = useState('')\nconst [subtext, setSubtext] = useState('')\n```\n\nThese are some of the states I'm using for the AzerothWeather website and following the documents this seems to be fine. \n\n\n## useEffect()\n\nSomething else which is new is the `useEffect` Hook which replaces the lifecycle methods in React (`ComponentDidMount(), ComponentWillmount()...`). The useEffect hook, when called tells React to run our \"Effect\" function after flushing changes to the DOM. Effects are declared inside the component so they have access to its props and state. By default Reacts runs effects after every render. \n\nTo be honest I still have to dig deeper into the useEffect and figure out how this magic works, but like the useState hook we can have multiple useEffect hooks in one component which is pretty neat.\n\n\nIn AzerothWeather I have used the useEffect hook like this: \n```\n  useEffect(() => {\n    var latitude = ''\n    var longitude = ''\n\n    navigator.geolocation.getCurrentPosition((position) => {\n      latitude = position.coords.latitude\n      longitude = position.coords.longitude\n\n      axios.get('ApiURL' + latitude + '/' + longitude + '/metric')\n        .then(res => {\n          setWeather(res.data.list)\n        })\n        .catch(err => {\n          console.log(err)\n        })\n    })\n\n  }, [])\n  ```\n\nAs we can see there is nothihng extraordinary in it, just a fetch and request for geolocations. Neat trick I also did not know, how to access the GPS data from browser, the answer is `navigator.geolocation.getCurrentPosition`. \n\nThis hook is executed once the website is loaded and the data is being fetched. Important to note is that we have the `[]` as second parameter in the hook which tells the hook to only execute once. By default the hooks is being executed every second, or to be precises by every render. Unlike componentDidMount, useEffect is not executed when the component finished mounting, but each time the component is rendered.That means if you modify the components state inside useEffect, it will cause a re-render of the component, which again causes the execution of useEffect.\n\nThat’s not a great thing if you want to load data only once.\nThat’s why useEffect takes an array of dependencies as a second argument.\n\nSo we pass an empty array.\n\nThat’s it:\n\n```\nuseEffect(() => {\n\n}, [])\n```\n\nIf we pass an empty array to useEffect, it’s only executed after the first render. \n\nAnd thus concludes my little dive into the world of React Hooks! \n\n",
+      "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/azerothweather.md"
+    },
+    "4fa8314b-fae8-5742-9299-06e072c00aca": {
+      "id": "4fa8314b-fae8-5742-9299-06e072c00aca",
+      "children": [],
+      "parent": "da1844f9-71af-5987-b066-b9c0aa41c567",
+      "internal": {
+        "content": "\n![Alt Text](https://media.giphy.com/media/xT9IgLga0z8n8OTFpC/giphy.gif)\nWe live in a very, very comfortable age, especially when it comes to our file sizes and storage capacities. Storage space today is very cheap and easy to acquire, only my NAS has about 8TB storage combinet with my PC and laptop its almost over 15TB. \n\nSo no shortage for pictures, videos and fairly large games.\n\nAh Games... The Biggest and most fufilling timesink. \n\nI will go on a small tangent here and say that I really enjoy playing games. In the last few years mostly multiplayer ones since my friends are ~400km away from me and it helps us stay connected and do some friendly activities. \n\nAnyway, back on the topic. Currently CoD: Warzone is sitting about ~200GB on my Hard drive.\n\n![codfilesize](https://p47.f4.n0.cdn.getcloudapp.com/items/Wnubey08/CODpcSize.jpg?v=e2862c38b8a74451bc4d4110fdd04c6f)\n\nAlmost every next release it is getting bigger and bigger..\n\nI myself am lucky enough to not have issues with this file size, however,\nI do have friends with bad internet or just older hardware which makes it impossible for them to keep up with the increasing size.  When you think about it, old Pokemon games from the gameboy felt huge, but they did only have about a few MB of size.\nAccording to [DataCrystal](https://datacrystal.romhacking.net/wiki/Pok%C3%A9mon_Red_and_Blue) the size is ~1MB which is not much compared to todays standards.\n\n![alt](https://p47.f4.n0.cdn.getcloudapp.com/items/nOuezR5E/filesize.png?v=c81773c82765ecb92586bef8741ead1c)\n\nNow, I'm not saying lets make all 2D games with limited gameplay so we can save space, my idea is, we as a whole, software engineers should start thinking about optimizing our code. It is probably not always possible since deadlines and/or \"PM wants this to work ASAP!\". I'm totally aware of that, BUT my suggestion is, always think like this when writing some piece of software: **Will a potato PC be able to run this without any hiccups? Will this run on a bad internet connection?**\n\nI always try to answer these questions at least with the personal projects I'm doing, but I'm also not perfect at it. I think we as a whole should make limits in our \"minds\" when coding and not just assume \"yeah a PC rig with 12GB of RAM and TBs of storage will have no issue with this\". I think developers got really spoiled in these past years with the huge advantage of having \"unlimited\" resources when working.",
+        "type": "MarkdownRemark",
+        "contentDigest": "77f7fc5a479a718ca501d63c22423677",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Filesizes",
+        "date": "2020-06-03",
+        "path": "/filesizes",
+        "author": "Almin",
+        "excerpt": "too much gigabytes",
+        "tags": [
+          "rant"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![Alt Text](https://media.giphy.com/media/xT9IgLga0z8n8OTFpC/giphy.gif)\nWe live in a very, very comfortable age, especially when it comes to our file sizes and storage capacities. Storage space today is very cheap and easy to acquire, only my NAS has about 8TB storage combinet with my PC and laptop its almost over 15TB. \n\nSo no shortage for pictures, videos and fairly large games.\n\nAh Games... The Biggest and most fufilling timesink. \n\nI will go on a small tangent here and say that I really enjoy playing games. In the last few years mostly multiplayer ones since my friends are ~400km away from me and it helps us stay connected and do some friendly activities. \n\nAnyway, back on the topic. Currently CoD: Warzone is sitting about ~200GB on my Hard drive.\n\n![codfilesize](https://p47.f4.n0.cdn.getcloudapp.com/items/Wnubey08/CODpcSize.jpg?v=e2862c38b8a74451bc4d4110fdd04c6f)\n\nAlmost every next release it is getting bigger and bigger..\n\nI myself am lucky enough to not have issues with this file size, however,\nI do have friends with bad internet or just older hardware which makes it impossible for them to keep up with the increasing size.  When you think about it, old Pokemon games from the gameboy felt huge, but they did only have about a few MB of size.\nAccording to [DataCrystal](https://datacrystal.romhacking.net/wiki/Pok%C3%A9mon_Red_and_Blue) the size is ~1MB which is not much compared to todays standards.\n\n![alt](https://p47.f4.n0.cdn.getcloudapp.com/items/nOuezR5E/filesize.png?v=c81773c82765ecb92586bef8741ead1c)\n\nNow, I'm not saying lets make all 2D games with limited gameplay so we can save space, my idea is, we as a whole, software engineers should start thinking about optimizing our code. It is probably not always possible since deadlines and/or \"PM wants this to work ASAP!\". I'm totally aware of that, BUT my suggestion is, always think like this when writing some piece of software: **Will a potato PC be able to run this without any hiccups? Will this run on a bad internet connection?**\n\nI always try to answer these questions at least with the personal projects I'm doing, but I'm also not perfect at it. I think we as a whole should make limits in our \"minds\" when coding and not just assume \"yeah a PC rig with 12GB of RAM and TBs of storage will have no issue with this\". I think developers got really spoiled in these past years with the huge advantage of having \"unlimited\" resources when working.",
+      "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/filesize.md"
+    },
+    "aef8065c-6f79-54bf-923b-b3905fecdbc5": {
+      "id": "aef8065c-6f79-54bf-923b-b3905fecdbc5",
+      "children": [],
+      "parent": "9a198136-c6ca-594f-a283-b1687cfd22c8",
+      "internal": {
+        "content": "\n\nHere I'm going to talk all about functions in JS! \n\n\nhttps://www.youtube.com/watch?v=joKEi4RR9-o\n\n\nFunction Declarations - Hoisted to top. So If I try to use the function before the function implementation it won't throw an error. \n\n```\n    function sayHello() {\n        console.log(\"Hello!\")\n    }\n```\n\n\nFunction Expressions - are not hoisted. They are written a bit differently like this: \n\n```\n    const sayHello = function() {\n        console.log(\"Hello!\")\n    }\n```\n\nThis can be use const/let/var, but does not matter. Here we can see that we are adding a variable with the value of a function essentially. For example, what we can do is this: \n\n```\n    function someFunction(sayHello) {\n        console.log(\"I'm a normal function\")\n        sayHello();\n    }\n```\n\nWhat we have here is a function, which has an argument which is a function and we execute both. \nAlso we can, instead of writing these functions directly in the parameter. \n\n\nImidiatelly invoked function expression\n\n```\n    const sayHello = (function(){\n        console.log(\"Hello!\")\n    })()\n```\n\nreson to use - Encapsulation.. No one can access a IIFE.. Easily to write about \n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "c9a6ea3d4673175447a49a2f83ed89d6",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "JS Functions",
+        "date": "2021-01-012",
+        "path": "/js-functions",
+        "author": "Almin",
+        "excerpt": "",
+        "tags": []
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n\nHere I'm going to talk all about functions in JS! \n\n\nhttps://www.youtube.com/watch?v=joKEi4RR9-o\n\n\nFunction Declarations - Hoisted to top. So If I try to use the function before the function implementation it won't throw an error. \n\n```\n    function sayHello() {\n        console.log(\"Hello!\")\n    }\n```\n\n\nFunction Expressions - are not hoisted. They are written a bit differently like this: \n\n```\n    const sayHello = function() {\n        console.log(\"Hello!\")\n    }\n```\n\nThis can be use const/let/var, but does not matter. Here we can see that we are adding a variable with the value of a function essentially. For example, what we can do is this: \n\n```\n    function someFunction(sayHello) {\n        console.log(\"I'm a normal function\")\n        sayHello();\n    }\n```\n\nWhat we have here is a function, which has an argument which is a function and we execute both. \nAlso we can, instead of writing these functions directly in the parameter. \n\n\nImidiatelly invoked function expression\n\n```\n    const sayHello = (function(){\n        console.log(\"Hello!\")\n    })()\n```\n\nreson to use - Encapsulation.. No one can access a IIFE.. Easily to write about \n\n",
+      "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/functions.md"
+    },
+    "e6cc90da-de15-51c1-babb-08cab658b8c6": {
+      "id": "e6cc90da-de15-51c1-babb-08cab658b8c6",
+      "children": [],
+      "parent": "48a05c53-1d7d-5ae5-a942-ad56542421bb",
+      "internal": {
+        "content": "\n\nSo for the longest time I've been ignoring the error message that my credentials are not set on Git when Pushing or Pulling a repository. \n\nAfter months of tedious entering username and password of github everytime I want to do something I decided to set my credentials. \n\n![TTFB](https://p47.f4.n0.cdn.getcloudapp.com/items/nOuek9Om/Image%202020-06-17%20at%209.45.15%20PM.png?v=1b2b9332d112a0634422eb81ca74a49f)\n\n\n\nHowever if you think it is just like on linux, you are **Wrong**.\n\nAt first I've also thought that doing `git config credential.helper store` or setting the git username / email would be enough but no, what you have to do in the WSL is execute the following command: \n\n```git config --global credential.helper \"/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe\"``` \n\n(or wherver you path to `git-credential-manager.exe` is) and Voilà! \n\nNow you never have to enter your username and password during push/pull of the code! Congratz! ",
+        "type": "MarkdownRemark",
+        "contentDigest": "8b85699a89e7435d0e9bb529119530c4",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "GIT credentials in WSL",
+        "path": "/gitcredentials",
+        "date": "2020-06-17",
+        "author": "Almin",
+        "excerpt": "",
+        "tags": [
+          "git",
+          "setup",
+          "windows"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n\nSo for the longest time I've been ignoring the error message that my credentials are not set on Git when Pushing or Pulling a repository. \n\nAfter months of tedious entering username and password of github everytime I want to do something I decided to set my credentials. \n\n![TTFB](https://p47.f4.n0.cdn.getcloudapp.com/items/nOuek9Om/Image%202020-06-17%20at%209.45.15%20PM.png?v=1b2b9332d112a0634422eb81ca74a49f)\n\n\n\nHowever if you think it is just like on linux, you are **Wrong**.\n\nAt first I've also thought that doing `git config credential.helper store` or setting the git username / email would be enough but no, what you have to do in the WSL is execute the following command: \n\n```git config --global credential.helper \"/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe\"``` \n\n(or wherver you path to `git-credential-manager.exe` is) and Voilà! \n\nNow you never have to enter your username and password during push/pull of the code! Congratz! ",
+      "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/gitcredentials.md"
+    },
+    "191a4ed4-eeb4-5995-abcb-e862ec1a0bee": {
+      "id": "191a4ed4-eeb4-5995-abcb-e862ec1a0bee",
+      "children": [],
+      "parent": "74d74785-0225-5a52-aa07-06df431a4c05",
+      "internal": {
+        "content": "\nIt's alive! this blog is alive! After some screw up and configurations with Netlify, I finally made it work!\n\nI think everyone is kinda being bored during this pandemic, so I thought lets start with a blog! Hopefully I don't drop this after a month (Future me, pls don't drop this after a month)\n\nSomething I'm keeping myself busy is learning more about technologies, optimizing my daily use of Windows and some pet projects. For now howerver I think I will leave it on this for my first post. I think that this will be a nice start to this, for one to make it easier for me to remember the stuff I'm learning. For second this could maybe help someone.\n\nFor more info on this visit the [About page](/about).\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6f5d3dbdd2301409e91a8c5f678dde7c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "HelloWorld",
+        "path": "/hello",
+        "date": "2020-05-03",
+        "coverImage": "../images/hello.jpg",
+        "author": "Almin",
+        "excerpt": "Because every blog needs a Hello World post..",
+        "tags": [
+          "hello",
+          "firstpost"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nIt's alive! this blog is alive! After some screw up and configurations with Netlify, I finally made it work!\n\nI think everyone is kinda being bored during this pandemic, so I thought lets start with a blog! Hopefully I don't drop this after a month (Future me, pls don't drop this after a month)\n\nSomething I'm keeping myself busy is learning more about technologies, optimizing my daily use of Windows and some pet projects. For now howerver I think I will leave it on this for my first post. I think that this will be a nice start to this, for one to make it easier for me to remember the stuff I'm learning. For second this could maybe help someone.\n\nFor more info on this visit the [About page](/about).\n\n\n",
+      "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/hello.md"
+    },
+    "37701346-d104-5de9-ae20-a995c67642cc": {
+      "id": "37701346-d104-5de9-ae20-a995c67642cc",
+      "children": [],
+      "parent": "a781b25e-0722-5a51-8562-67dd4f4839fc",
+      "internal": {
+        "content": "\n\nAn easy way to **dockerize** your React (create-react-app) would be like this:\n\n- Add this as a dockerfile into the root of your project. \n\n``` dockerfile\n# pull official base image\nFROM node:13.12.0-alpine\n\n# set working directory\nWORKDIR /app\n\n# add `/app/node_modules/.bin` to $PATH\nENV PATH /app/node_modules/.bin:$PATH\n\n# install app dependencies\nCOPY package.json ./\nCOPY package-lock.json ./\nRUN npm install\nRUN npm install react-scripts@3.4.1 -g\n\n# add app\nCOPY . ./\n\n# start app\nCMD [\"npm\", \"start\"]\n```\n\n\n- Add a docker ignore file\n```dockerignore\nnode_modules\nbuild\n.dockerignore\nDockerfile\n```\n\nThis will speed up the Docker build process as our local dependencies inside the “node_modules” directory will not be sent to the Docker daemon.\n\n- Build the docker image \n`$ docker build -t dockerized:react .`\n\nThen start the contianer when the build is done: \n```bash\n$ docker run \\\n    -it \\\n    --rm \\\n    -v ${PWD}:/app \\\n    -v /app/node_modules \\\n    -p 3001:3000 \\\n    -e CHOKIDAR_USEPOLLING=true \\\n    dockerized:react\n```\n\nSo whats happening here ? \n\n- The docker run command creates and runs a new container instance from the image we just created.\n- `-it` starts the container in interactive mode. We need to use this, because the of the react-scripts, which exit after they are finished (if the scripts exits so does the process and so does our Docker container). To prvent that we use the `-it` command which lets us stay in the console.\n\n- `--rm` removes the container and volumes after exiting our container\n- `-v ${PWD}:/app` mounts the code into the container at “/app”\n\n> {PWD} may not work on Windows. Stackoverflow question for more [info](https://stackoverflow.com/questions/41485217/mount-current-directory-as-a-volume-in-docker-on-windows-10)\n\n- Since we want to use the container version of the “node_modules” folder, we configured another volume: `-v /app/node_modules`. You should now be able to remove the local “node_modules” flavor\n\n- `-p 3001:3000` exposes port 3000 to other Docker containers on the same network (for inter-container communication) and port 3001 to the host\n\n\n- `-e CHOKIDAR_USEPOLLING=true` enables a polling mechanism via chokidar so that hot-reloading will work\n\n\nVisit `http://localhost:3001` and check if everything is working!",
+        "type": "MarkdownRemark",
+        "contentDigest": "5a2bddde2b8d92f9372fa6410bccbac5",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Dockerizing React",
+        "path": "/react-docker-development",
+        "date": "2020-09-21",
+        "coverImage": "../images/docker+react.png",
+        "author": "Almin",
+        "excerpt": "Dockerize your development enviroment",
+        "tags": [
+          "react",
+          "docker",
+          "development"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n\nAn easy way to **dockerize** your React (create-react-app) would be like this:\n\n- Add this as a dockerfile into the root of your project. \n\n``` dockerfile\n# pull official base image\nFROM node:13.12.0-alpine\n\n# set working directory\nWORKDIR /app\n\n# add `/app/node_modules/.bin` to $PATH\nENV PATH /app/node_modules/.bin:$PATH\n\n# install app dependencies\nCOPY package.json ./\nCOPY package-lock.json ./\nRUN npm install\nRUN npm install react-scripts@3.4.1 -g\n\n# add app\nCOPY . ./\n\n# start app\nCMD [\"npm\", \"start\"]\n```\n\n\n- Add a docker ignore file\n```dockerignore\nnode_modules\nbuild\n.dockerignore\nDockerfile\n```\n\nThis will speed up the Docker build process as our local dependencies inside the “node_modules” directory will not be sent to the Docker daemon.\n\n- Build the docker image \n`$ docker build -t dockerized:react .`\n\nThen start the contianer when the build is done: \n```bash\n$ docker run \\\n    -it \\\n    --rm \\\n    -v ${PWD}:/app \\\n    -v /app/node_modules \\\n    -p 3001:3000 \\\n    -e CHOKIDAR_USEPOLLING=true \\\n    dockerized:react\n```\n\nSo whats happening here ? \n\n- The docker run command creates and runs a new container instance from the image we just created.\n- `-it` starts the container in interactive mode. We need to use this, because the of the react-scripts, which exit after they are finished (if the scripts exits so does the process and so does our Docker container). To prvent that we use the `-it` command which lets us stay in the console.\n\n- `--rm` removes the container and volumes after exiting our container\n- `-v ${PWD}:/app` mounts the code into the container at “/app”\n\n> {PWD} may not work on Windows. Stackoverflow question for more [info](https://stackoverflow.com/questions/41485217/mount-current-directory-as-a-volume-in-docker-on-windows-10)\n\n- Since we want to use the container version of the “node_modules” folder, we configured another volume: `-v /app/node_modules`. You should now be able to remove the local “node_modules” flavor\n\n- `-p 3001:3000` exposes port 3000 to other Docker containers on the same network (for inter-container communication) and port 3001 to the host\n\n\n- `-e CHOKIDAR_USEPOLLING=true` enables a polling mechanism via chokidar so that hot-reloading will work\n\n\nVisit `http://localhost:3001` and check if everything is working!",
+      "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/react-docker.md"
+    },
+    "a019d1c8-b7b8-5bb2-ab73-0deaf332d93a": {
+      "id": "a019d1c8-b7b8-5bb2-ab73-0deaf332d93a",
+      "children": [],
+      "parent": "2fb0b4f6-a317-5a5d-b69c-bbbde007c9f2",
+      "internal": {
+        "content": "\nFew months back I've seen that my website [Splitstream](https://splitstream.net/) does not work. The issue seems to be that twitch changed their API policy. They switched from the Kraken to Helix API.\n\nThe official documentation of Twitch suggests this way of handling authentication with the [Helix API]([Authentication | Twitch Developers](https://dev.twitch.tv/docs/authentication))\n\nThe old way with using ***Kraken*** is doing a API request with just the `Client-ID` .\n\nExample:\n\n```js\ncurl -H 'Accept: application/vnd.twitchtv.v5+json' \\\n-H 'Client-ID: XXXXXXXX' \\\n-X GET 'https://api.twitch.tv/kraken/games/top'\n```\n\nHowever, with the new **Helix** API, the request looks liek this:\n\n```js\ncurl -X GET 'https://api.twitch.tv/helix/games/top' \\\n-H 'Authorization: Bearer XXXXXXXX' \\\n-H 'Client-Id: XXXXXXX'\n```\n\nAs we can see there is now a `Authorization` header which requires us to send a Bearer token, there are 3 ways of getting a token. ([Reference]([Getting Tokens: OAuth | Twitch Developers](https://dev.twitch.tv/docs/authentication/getting-tokens-oauth)))\n\n- First way Implicite code flow\n  \n  - Send the user you want to authenticate to your registered redirect URI, which in human language means that the user should `Authorize` the app in a seperate window / popup which will be open, kinda like the google login things we see.\n    \n- Second way is OAuth authorization code flow\n  \n  - To be honest it looks the same as the first one, with the only change is that there is an extra step with an Authrozation code.. I really have not dug deeper into it.\n    \n- The third way, OAuth client credentials flow, which in the end I used and I think is the \"easiest\" for my use case. I Prefere it because My users do not have to be redirected somewhere or have to do a login for the app. Its essentially a server to server communication.\n  \n\nIn the end I've created a small node server with express, and just added one endpoint which fetches the token. It looks like this:\n\n```javascript\napp.get('/getToken', async function (req, res, next){\n    const dataToReturn = await getCredentials()\n    var dataReturner = dataToReturn.data\n    // Redis to save the token\n    client.set(\"token\", dataReturner.access_token)\n})\n\n\nasync function getCredentials() {\n    var secret = SECRET_ID\n    var clientid  = CLIENT_ID\n    const url = 'https://id.twitch.tv/oauth2/token?client_id=' + clientid + '&client_secret=' + secret + '&grant_type=client_credentials'\n    const responseToken = await axios.post(url)\n    return responseToken\n}\n\napp.get('/getTopgames', async function(req, res, next) {\n    \n    let topGames = await axios.get('https://api.twitch.tv/helix/games/top?first=5', {\n      headers: {\n        'Client-ID': CLIENT_ID,\n        'Authorization':'Bearer ' + client.get(\"token\")\n      }\n    })\n\n    res.json({topGames})\n    \n)}\n \n```\n\nI've also migrated all my endpoints to this nodejs Server where my frontend calls my node server which then calls the Twitch API. Think of it like a small wrapper around the twitch API. So now we have a small nodeJs server with the Twitch API calls and it is totally isolated from the frontend which only gets returned the data. \n\nAfter you set the token it should be fairly easy to use it in a endpoint.\n\n\nNote: Securet the endpoint if you are using it on a external server. My go to would be just using CORS for this.",
+        "type": "MarkdownRemark",
+        "contentDigest": "9b4fc05c527475821aaf15142e1511ec",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Migrating from Kraken to Helix Twitch API",
+        "date": "2020-10-15",
+        "path": "/twitch-api-migration",
+        "author": "Almin",
+        "excerpt": "Kraken to Helix update",
+        "tags": [
+          "personal",
+          "project",
+          "API",
+          "twitch"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nFew months back I've seen that my website [Splitstream](https://splitstream.net/) does not work. The issue seems to be that twitch changed their API policy. They switched from the Kraken to Helix API.\n\nThe official documentation of Twitch suggests this way of handling authentication with the [Helix API]([Authentication | Twitch Developers](https://dev.twitch.tv/docs/authentication))\n\nThe old way with using ***Kraken*** is doing a API request with just the `Client-ID` .\n\nExample:\n\n```js\ncurl -H 'Accept: application/vnd.twitchtv.v5+json' \\\n-H 'Client-ID: XXXXXXXX' \\\n-X GET 'https://api.twitch.tv/kraken/games/top'\n```\n\nHowever, with the new **Helix** API, the request looks liek this:\n\n```js\ncurl -X GET 'https://api.twitch.tv/helix/games/top' \\\n-H 'Authorization: Bearer XXXXXXXX' \\\n-H 'Client-Id: XXXXXXX'\n```\n\nAs we can see there is now a `Authorization` header which requires us to send a Bearer token, there are 3 ways of getting a token. ([Reference]([Getting Tokens: OAuth | Twitch Developers](https://dev.twitch.tv/docs/authentication/getting-tokens-oauth)))\n\n- First way Implicite code flow\n  \n  - Send the user you want to authenticate to your registered redirect URI, which in human language means that the user should `Authorize` the app in a seperate window / popup which will be open, kinda like the google login things we see.\n    \n- Second way is OAuth authorization code flow\n  \n  - To be honest it looks the same as the first one, with the only change is that there is an extra step with an Authrozation code.. I really have not dug deeper into it.\n    \n- The third way, OAuth client credentials flow, which in the end I used and I think is the \"easiest\" for my use case. I Prefere it because My users do not have to be redirected somewhere or have to do a login for the app. Its essentially a server to server communication.\n  \n\nIn the end I've created a small node server with express, and just added one endpoint which fetches the token. It looks like this:\n\n```javascript\napp.get('/getToken', async function (req, res, next){\n    const dataToReturn = await getCredentials()\n    var dataReturner = dataToReturn.data\n    // Redis to save the token\n    client.set(\"token\", dataReturner.access_token)\n})\n\n\nasync function getCredentials() {\n    var secret = SECRET_ID\n    var clientid  = CLIENT_ID\n    const url = 'https://id.twitch.tv/oauth2/token?client_id=' + clientid + '&client_secret=' + secret + '&grant_type=client_credentials'\n    const responseToken = await axios.post(url)\n    return responseToken\n}\n\napp.get('/getTopgames', async function(req, res, next) {\n    \n    let topGames = await axios.get('https://api.twitch.tv/helix/games/top?first=5', {\n      headers: {\n        'Client-ID': CLIENT_ID,\n        'Authorization':'Bearer ' + client.get(\"token\")\n      }\n    })\n\n    res.json({topGames})\n    \n)}\n \n```\n\nI've also migrated all my endpoints to this nodejs Server where my frontend calls my node server which then calls the Twitch API. Think of it like a small wrapper around the twitch API. So now we have a small nodeJs server with the Twitch API calls and it is totally isolated from the frontend which only gets returned the data. \n\nAfter you set the token it should be fairly easy to use it in a endpoint.\n\n\nNote: Securet the endpoint if you are using it on a external server. My go to would be just using CORS for this.",
+      "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/twitch-api-update.md"
+    },
+    "88240830-f5e8-59d2-831a-e4d924833a75": {
+      "id": "88240830-f5e8-59d2-831a-e4d924833a75",
+      "children": [],
+      "parent": "35eccb2b-6744-5b46-baca-3961b463e618",
+      "internal": {
+        "content": "\n# Things that make your website slow\n\nAs someone who is a huge fan of optimizing and making websites as fast as possible and as easier for the browser to handle, I really resonated with an episode of [Syntax.fm](http://syntax.fm) (from Wes Bos and Scott Tolinski) `Hasty Treat - 5 Things That Make Your Site Slow.` I decided to dig a bit deeper and wrote a summary and a few tips on how to \"fix\" the website issues. \t\n\n## TTFB (Time to first byte)\t\n\n![TTFB](https://www.keycdn.com/img/support/ttfb-featured.png)\t\n\nTTFB, which stands for time to first byte, is the amount of time it takes from when a client makes an HTTP request to it receiving its first byte of data from the web server. It is an important aspect of website optimization since the faster the TTFB, the faster the requested resource can start being delivered to the browser.\t\n\nThe time to first byte is made up of three separate components.\t\n\n- The time needed to **send the HTTP request**\t\n- The time needed for the server to **process the request**\t\n- The time needed for the server to **send back the first byte** of the response to the client\t\n\n**Things that slow down your TTFB**\t\n\n- The creation of dynamic content\t\n- Networking issues\t\n- Poorly configured web server\t\n- Server capacity issues (disk I/O, RAM, network bottlenecks)\t\n- Database configuration/design\t\n- Server location / higher latency\t\n\n**Improving TTFB**\t\n\n- Caching - Many processes and interactions must be carried out in order the generate a page, be that Wordpress or a custom website using some JS framework. These interactions each take time and can consequently increase your *TTFB*. Implementing a caching mechanism can help minimize the load time disadvantages as it keeps a stored copy of a prebuilt page that was previously requested.\t\n- Update to latest version - Update all your packages, server side languages which run the code and even the webservers. Everything should be as up to date as possible.\t\n- Check Logs and monitor server - Keeping track on your logs is always a good idea. You can catch early issues that may indicate a website being overloaded. This includes web servers and databases. In my career I have seen a lot of websites being slow due to bad SQL queries which need optimisation. The traffic which the website receives is also something to keep an eye on since that can impact the performance largely. If needed update your server, scale up, implement load balancing etc.\t\n\n## **Requests**\t\n\n![request](https://hackernoon.com/photos/ODqpGrKgCbTLUFU0tkLq9IXHAqt2-9r1k32nu)\t\n\nGoing from the previous topic to the next, we have requests. After TTFB is finished we have requests which load files from the server to the client / web browser. The files should be as small as possible and they should be as few as possible. Too many requests, loading too much JS Files, CSS files and images causes a **longer** loading time. \t\n\nThe best **solution** for this would be bundling the JS and CSS files and also minimizing them. (*Minification (also minimisation or minimization) is the process of removing all unnecessary characters from the source code of interpreted programming languages or markup languages without changing its functionality.*)\t\n\n**Bundling**\t\n\nUsing tools like Parcel, Webpack or even Grunt, will help you to bundle your JS files into one file which will be delivered to the client besides bundling they also compress them so it will be delivered as optimized as possible. I think modern web development without a Build tool is not even viable anymore, if you use Angular/Vue/React you must use some kind of build system. \t\n\nBesides taking care of the number of files we also have to take care of the **size** of those. \t\n\nWith moving the files from server to client these file are gonna take longer to load pretty straight forward, however what is the solution here ?\t\n\n**Compress images**\t\n\nBy compressing the images we want to make them \"web efficient\". There are tons of tools out there for making this happen. \t\n\nLike mentioned on the show, there are a few options for image optimisation. For example we have [ImageOptim]([https://imageoptim.com/mac](https://imageoptim.com/mac)) which is only a mac app but can be used to compress your images, services like [cloudinary]([https://cloudinary.com/](https://cloudinary.com/)) which helps you manage images on your devices. Also if you have an 4k image or something ridiculous like that on you website, you don't want to serve that to the user on mobile phones. That is why the images should be adapted to the device. \t\nSpeaking of that we have the `picture` element in HTML. [More on the picture element here]([https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)) \t\n\nIdea is you can pass multiple sources along with media queries show/hide different sizes depending on the device, for example (taken from MDN): \t\n\n```jsx\t\n<picture>\t\n    <source srcset=\"/media/examples/surfer-240-200.jpg\"\t\n            media=\"(min-width: 800px)\">\t\n    <img src=\"/media/examples/painted-hand-298-332.jpg\" />\t\n</picture>\t\n```\t\n\n(Wordpress for example does image optimization out of the box.)\t\n\nSomething they mentioned on the show which I also did not know is the [ImgBot]([https://github.com/apps/imgbot](https://github.com/apps/imgbot)) on Github. \t\nIts a free Bot for open source projects which resizes your images in your repo for **FREE** and it does it lossless. The results are about 30-40% image size reduction.\t\n\n## **Lazy Loading**\t\n\nLazy loading (also known as asynchronous loading) is a design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed.\t\n\nFor example we can make an offset in an HTML element and say \"Hey, When you scroll over me just load the images below (Or some other DOM element)\" The idea is that the content is being loaded as we scroll the page no need to load a huge website all at once. For a good example just visit [https://reddit.com](https://reddit.com). \t\n\nWe also have the lazy load attribute in HTML for images which can help us easily to implement lazy loading on images and almost every browser supports it. \t\n\n```jsx\t\n<img src=\"image.png\" loading=\"lazy\" alt=\"…\" width=\"200\" height=\"200\">```\t\n```\t\n\n## **CDN (Content delivery network)**\t\n\nWhen you have an asset(JS file, CSS File or an Image), and you use a CDN, the asset will put on servers all over the world. Then, when someone requests the CDN will be smart enough to route the closest server to this asset. As simple as that. \t\n\nThe current top providers are [Cloudflare]([https://www.cloudflare.com/](https://www.cloudflare.com/)) and [AWS Cloudfront]([https://aws.amazon.com/cloudfront/](https://aws.amazon.com/cloudfront/)). \t\n\n**Fun Fact:** Netlify, the web app where this website is also hosted, uses a CDN and it is free to use and it is zero setup. So thanks Netlify! \t\n\nI hope you have taken some value from this post. There is a lot more to talk about and going into the details however a lot of problems are taken care of by boilerplates like `create-react-app` which configure the project for you. These are some general information on how to maintain your website.",
+        "type": "MarkdownRemark",
+        "contentDigest": "4b239af87f74a0410e2cf6dc3821c823",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Website Speed",
+        "date": "2020-05-07",
+        "path": "/website-speed",
+        "author": "Almin",
+        "excerpt": "",
+        "tags": [
+          "website",
+          "speed",
+          "optimization"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Things that make your website slow\n\nAs someone who is a huge fan of optimizing and making websites as fast as possible and as easier for the browser to handle, I really resonated with an episode of [Syntax.fm](http://syntax.fm) (from Wes Bos and Scott Tolinski) `Hasty Treat - 5 Things That Make Your Site Slow.` I decided to dig a bit deeper and wrote a summary and a few tips on how to \"fix\" the website issues. \t\n\n## TTFB (Time to first byte)\t\n\n![TTFB](https://www.keycdn.com/img/support/ttfb-featured.png)\t\n\nTTFB, which stands for time to first byte, is the amount of time it takes from when a client makes an HTTP request to it receiving its first byte of data from the web server. It is an important aspect of website optimization since the faster the TTFB, the faster the requested resource can start being delivered to the browser.\t\n\nThe time to first byte is made up of three separate components.\t\n\n- The time needed to **send the HTTP request**\t\n- The time needed for the server to **process the request**\t\n- The time needed for the server to **send back the first byte** of the response to the client\t\n\n**Things that slow down your TTFB**\t\n\n- The creation of dynamic content\t\n- Networking issues\t\n- Poorly configured web server\t\n- Server capacity issues (disk I/O, RAM, network bottlenecks)\t\n- Database configuration/design\t\n- Server location / higher latency\t\n\n**Improving TTFB**\t\n\n- Caching - Many processes and interactions must be carried out in order the generate a page, be that Wordpress or a custom website using some JS framework. These interactions each take time and can consequently increase your *TTFB*. Implementing a caching mechanism can help minimize the load time disadvantages as it keeps a stored copy of a prebuilt page that was previously requested.\t\n- Update to latest version - Update all your packages, server side languages which run the code and even the webservers. Everything should be as up to date as possible.\t\n- Check Logs and monitor server - Keeping track on your logs is always a good idea. You can catch early issues that may indicate a website being overloaded. This includes web servers and databases. In my career I have seen a lot of websites being slow due to bad SQL queries which need optimisation. The traffic which the website receives is also something to keep an eye on since that can impact the performance largely. If needed update your server, scale up, implement load balancing etc.\t\n\n## **Requests**\t\n\n![request](https://hackernoon.com/photos/ODqpGrKgCbTLUFU0tkLq9IXHAqt2-9r1k32nu)\t\n\nGoing from the previous topic to the next, we have requests. After TTFB is finished we have requests which load files from the server to the client / web browser. The files should be as small as possible and they should be as few as possible. Too many requests, loading too much JS Files, CSS files and images causes a **longer** loading time. \t\n\nThe best **solution** for this would be bundling the JS and CSS files and also minimizing them. (*Minification (also minimisation or minimization) is the process of removing all unnecessary characters from the source code of interpreted programming languages or markup languages without changing its functionality.*)\t\n\n**Bundling**\t\n\nUsing tools like Parcel, Webpack or even Grunt, will help you to bundle your JS files into one file which will be delivered to the client besides bundling they also compress them so it will be delivered as optimized as possible. I think modern web development without a Build tool is not even viable anymore, if you use Angular/Vue/React you must use some kind of build system. \t\n\nBesides taking care of the number of files we also have to take care of the **size** of those. \t\n\nWith moving the files from server to client these file are gonna take longer to load pretty straight forward, however what is the solution here ?\t\n\n**Compress images**\t\n\nBy compressing the images we want to make them \"web efficient\". There are tons of tools out there for making this happen. \t\n\nLike mentioned on the show, there are a few options for image optimisation. For example we have [ImageOptim]([https://imageoptim.com/mac](https://imageoptim.com/mac)) which is only a mac app but can be used to compress your images, services like [cloudinary]([https://cloudinary.com/](https://cloudinary.com/)) which helps you manage images on your devices. Also if you have an 4k image or something ridiculous like that on you website, you don't want to serve that to the user on mobile phones. That is why the images should be adapted to the device. \t\nSpeaking of that we have the `picture` element in HTML. [More on the picture element here]([https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)) \t\n\nIdea is you can pass multiple sources along with media queries show/hide different sizes depending on the device, for example (taken from MDN): \t\n\n```jsx\t\n<picture>\t\n    <source srcset=\"/media/examples/surfer-240-200.jpg\"\t\n            media=\"(min-width: 800px)\">\t\n    <img src=\"/media/examples/painted-hand-298-332.jpg\" />\t\n</picture>\t\n```\t\n\n(Wordpress for example does image optimization out of the box.)\t\n\nSomething they mentioned on the show which I also did not know is the [ImgBot]([https://github.com/apps/imgbot](https://github.com/apps/imgbot)) on Github. \t\nIts a free Bot for open source projects which resizes your images in your repo for **FREE** and it does it lossless. The results are about 30-40% image size reduction.\t\n\n## **Lazy Loading**\t\n\nLazy loading (also known as asynchronous loading) is a design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed.\t\n\nFor example we can make an offset in an HTML element and say \"Hey, When you scroll over me just load the images below (Or some other DOM element)\" The idea is that the content is being loaded as we scroll the page no need to load a huge website all at once. For a good example just visit [https://reddit.com](https://reddit.com). \t\n\nWe also have the lazy load attribute in HTML for images which can help us easily to implement lazy loading on images and almost every browser supports it. \t\n\n```jsx\t\n<img src=\"image.png\" loading=\"lazy\" alt=\"…\" width=\"200\" height=\"200\">```\t\n```\t\n\n## **CDN (Content delivery network)**\t\n\nWhen you have an asset(JS file, CSS File or an Image), and you use a CDN, the asset will put on servers all over the world. Then, when someone requests the CDN will be smart enough to route the closest server to this asset. As simple as that. \t\n\nThe current top providers are [Cloudflare]([https://www.cloudflare.com/](https://www.cloudflare.com/)) and [AWS Cloudfront]([https://aws.amazon.com/cloudfront/](https://aws.amazon.com/cloudfront/)). \t\n\n**Fun Fact:** Netlify, the web app where this website is also hosted, uses a CDN and it is free to use and it is zero setup. So thanks Netlify! \t\n\nI hope you have taken some value from this post. There is a lot more to talk about and going into the details however a lot of problems are taken care of by boilerplates like `create-react-app` which configure the project for you. These are some general information on how to maintain your website.",
+      "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/websiteSpeed.md"
+    },
+    "b0da4e74-7e3c-5c6f-9d8a-708de4c91b4c": {
+      "id": "b0da4e74-7e3c-5c6f-9d8a-708de4c91b4c",
+      "children": [],
+      "parent": "a285e86d-52cf-5640-add2-1b7c8ce46c72",
+      "internal": {
+        "content": "\nWSL2 is a super nice and powerfull tool for developing on windows. I'm someone who uses it daily and I would encourage everyone who wants to try using it on windows to do so. \n\nSome of the recent issues I've seen with colleagues and myself, when using WSL2, consists mostly of things we don't understand how things work. \n\n## WSL2 has slow / needs a lot of time to do something basic like git status or npm install\n\nThe solution for this is simple, just install the project in the filesystem of WSL and not on Windows. So the filepath should be something like:\n ```bash\n $ ~/projects/MyProject\n ```\n\nMore info can be found here [Github Issue: filesystem performance is much slower than wsl1 in /mnt](https://github.com/microsoft/WSL/issues/4197).\n\nIt's still a work in progress issue and hopefully one day it will be perfectly fast and reliable.\n\n## WSL2 Takes up too much space\n\nThere is a very handy way to fix this issue too, and its called `wslconfig`. If you have this issue also, since WSL2 keeps growing and taking up RAM as much is Possible, you can easily make a `%UserProfile%\\.wslconfig` file in Windows and use it to limit memory assigned to WSL2 VM.\n\nIn the config file write: \n\n```conf\n[wsl2]\nmemory=6GB\nswap=0\nlocalhostForwarding=true\n```\n\n## WSL won't start\n\n![alt](../images/wslerror.png)\n\nThis is also a common issue I experienced, however the simple solution is to Reinstall the subsystem. I've tried googling for days but until I did a hard reset (uninstall ubuntu and reinstall) it just did not work. With that, here comes my most important tip for using WSL2: **BACKUP - DON'T THINK THAT THE NEXT TIME YOU START WSL IT IS GOING TO START!**\n\nThis is the sad reality of WSL for now, sometimes a missconfiguration on the windows side or the WSL side can cause it to not start. You install something which corrupts the ubuntu installation and you have to install a clean slate of WSL etc etc. The point is threat it as a temporary workstatin and ALWAYS backup and git push your work / changes.",
+        "type": "MarkdownRemark",
+        "contentDigest": "7267d41d459ac5500356dca3eb1a900b",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "WSL2 3 Common issues and how to 'fix' them",
+        "date": "2020-09-28",
+        "path": "/wsl2-issues",
+        "author": "Almin",
+        "coverImage": "../images/mll.png",
+        "excerpt": "",
+        "tags": [
+          "wsl",
+          "console",
+          "optimization"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWSL2 is a super nice and powerfull tool for developing on windows. I'm someone who uses it daily and I would encourage everyone who wants to try using it on windows to do so. \n\nSome of the recent issues I've seen with colleagues and myself, when using WSL2, consists mostly of things we don't understand how things work. \n\n## WSL2 has slow / needs a lot of time to do something basic like git status or npm install\n\nThe solution for this is simple, just install the project in the filesystem of WSL and not on Windows. So the filepath should be something like:\n ```bash\n $ ~/projects/MyProject\n ```\n\nMore info can be found here [Github Issue: filesystem performance is much slower than wsl1 in /mnt](https://github.com/microsoft/WSL/issues/4197).\n\nIt's still a work in progress issue and hopefully one day it will be perfectly fast and reliable.\n\n## WSL2 Takes up too much space\n\nThere is a very handy way to fix this issue too, and its called `wslconfig`. If you have this issue also, since WSL2 keeps growing and taking up RAM as much is Possible, you can easily make a `%UserProfile%\\.wslconfig` file in Windows and use it to limit memory assigned to WSL2 VM.\n\nIn the config file write: \n\n```conf\n[wsl2]\nmemory=6GB\nswap=0\nlocalhostForwarding=true\n```\n\n## WSL won't start\n\n![alt](../images/wslerror.png)\n\nThis is also a common issue I experienced, however the simple solution is to Reinstall the subsystem. I've tried googling for days but until I did a hard reset (uninstall ubuntu and reinstall) it just did not work. With that, here comes my most important tip for using WSL2: **BACKUP - DON'T THINK THAT THE NEXT TIME YOU START WSL IT IS GOING TO START!**\n\nThis is the sad reality of WSL for now, sometimes a missconfiguration on the windows side or the WSL side can cause it to not start. You install something which corrupts the ubuntu installation and you have to install a clean slate of WSL etc etc. The point is threat it as a temporary workstatin and ALWAYS backup and git push your work / changes.",
+      "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/wsl2starter.md"
+    },
+    "9b1faf0e-7e70-523f-80f4-d8dc35e0d379": {
+      "id": "9b1faf0e-7e70-523f-80f4-d8dc35e0d379",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e2c9486509d28adc6e9a33a35f08befa",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/almin/projects/Blog/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:06.720Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.960Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 2096,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286205,
+      "blocks": 8,
+      "atimeMs": 1610625726720,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933960,
+      "atime": "2021-01-14T12:02:06.720Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.960Z"
+    },
+    "7373d0e9-e4d4-5dd3-b269-adf82a985400": {
+      "id": "7373d0e9-e4d4-5dd3-b269-adf82a985400",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dd70ab2f27f14ef3afbbb2450e1f0254",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/almin/projects/Blog/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 318,
+      "prettySize": "318 B",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.960Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286209,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933960,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.960Z"
+    },
+    "2d469987-ecf2-5e3e-98b4-f0977747094d": {
+      "id": "2d469987-ecf2-5e3e-98b4-f0977747094d",
+      "children": [
+        "9dbf0752-382f-518b-8894-0459ffaaee83"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "008f615d6b83f1dcc3cb3c01d34acd07",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/about.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/almin/projects/Blog/src/pages/about.md",
+      "relativePath": "about.md",
+      "extension": "md",
+      "size": 339,
+      "prettySize": "339 B",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/pages",
+      "base": "about.md",
+      "ext": ".md",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286212,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "406581c3-5353-56c6-8d27-fb72dd0c12c3": {
+      "id": "406581c3-5353-56c6-8d27-fb72dd0c12c3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a6383c1092245078b5e7a5f2dd210193",
+        "type": "File",
+        "mediaType": "application/octet-stream",
+        "description": "File \"src/pages/showcase.md.old\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/almin/projects/Blog/src/pages/showcase.md.old",
+      "relativePath": "showcase.md.old",
+      "extension": "old",
+      "size": 3613,
+      "prettySize": "3.61 kB",
+      "modifiedTime": "2021-01-12T07:52:13.970Z",
+      "accessTime": "2021-01-14T12:02:12.730Z",
+      "changeTime": "2021-01-12T07:52:13.970Z",
+      "birthTime": "2021-01-12T07:52:13.970Z",
+      "root": "/",
+      "dir": "/home/almin/projects/Blog/src/pages",
+      "base": "showcase.md.old",
+      "ext": ".old",
+      "name": "showcase.md",
+      "relativeDirectory": "",
+      "dev": 2096,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 286222,
+      "blocks": 8,
+      "atimeMs": 1610625732730,
+      "mtimeMs": 1610437933970,
+      "ctimeMs": 1610437933970,
+      "birthtimeMs": 1610437933970,
+      "atime": "2021-01-14T12:02:12.730Z",
+      "mtime": "2021-01-12T07:52:13.970Z",
+      "ctime": "2021-01-12T07:52:13.970Z",
+      "birthtime": "2021-01-12T07:52:13.970Z"
+    },
+    "9dbf0752-382f-518b-8894-0459ffaaee83": {
+      "id": "9dbf0752-382f-518b-8894-0459ffaaee83",
+      "children": [],
+      "parent": "2d469987-ecf2-5e3e-98b4-f0977747094d",
+      "internal": {
+        "content": "\nHello! \n\nMy name is Almin, hailing from Bosnia and Herzegovina! \n\nFor more information about me please visit [my website!](https://almin.dev)\n\n\n### Blog Credits:\n\nThemed after Gatsby's blog starter from [Panr](https://github.com/panr/gatsby-starter-hello-friend)",
+        "type": "MarkdownRemark",
+        "contentDigest": "24f2dcc080b2efd6b1b5344019e03785",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "About Me",
+        "date": "2020-01-01",
+        "author": "Almin",
+        "path": "/about"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nHello! \n\nMy name is Almin, hailing from Bosnia and Herzegovina! \n\nFor more information about me please visit [my website!](https://almin.dev)\n\n\n### Blog Credits:\n\nThemed after Gatsby's blog starter from [Panr](https://github.com/panr/gatsby-starter-hello-friend)",
+      "fileAbsolutePath": "/home/almin/projects/Blog/src/pages/about.md"
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/almin/projects/Blog/src/templates/index.js",
+      "componentChunkName": "component---src-templates-index-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 2,
+        "previousPagePath": "",
+        "nextPagePath": "/2"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "32055598af9c9d02ea25a30b14cdec38",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /2": {
+      "jsonName": "2-de0",
+      "internalComponentName": "Component2",
+      "path": "/2",
+      "component": "/home/almin/projects/Blog/src/templates/index.js",
+      "componentChunkName": "component---src-templates-index-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "pageNumber": 1,
+        "humanPageNumber": 2,
+        "skip": 5,
+        "limit": 5,
+        "numberOfPages": 2,
+        "previousPagePath": "/",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/index.js",
+      "id": "SitePage /2",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9423e66610b74d2805ed1b3c17d580ad",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about": {
+      "jsonName": "about-771",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about",
+      "component": "/home/almin/projects/Blog/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "pages",
+        "next": null,
+        "previous": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "id": "SitePage /about",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cbf9756ae33fd87be62f5594fbbbaac6",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /js-functions": {
+      "jsonName": "js-functions-49a",
+      "internalComponentName": "ComponentJsFunctions",
+      "path": "/js-functions",
+      "component": "/home/almin/projects/Blog/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "posts",
+        "next": {
+          "frontmatter": {
+            "path": "/twitch-api-migration",
+            "title": "Migrating from Kraken to Helix Twitch API",
+            "tags": [
+              "personal",
+              "project",
+              "API",
+              "twitch"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/twitch-api-update.md"
+        },
+        "previous": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "id": "SitePage /js-functions",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3e5c567dd9bb593015e8841536cf9947",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /twitch-api-migration": {
+      "jsonName": "twitch-api-migration-30b",
+      "internalComponentName": "ComponentTwitchApiMigration",
+      "path": "/twitch-api-migration",
+      "component": "/home/almin/projects/Blog/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "posts",
+        "next": {
+          "frontmatter": {
+            "path": "/wsl2-issues",
+            "title": "WSL2 3 Common issues and how to 'fix' them",
+            "tags": [
+              "wsl",
+              "console",
+              "optimization"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/wsl2starter.md"
+        },
+        "previous": {
+          "frontmatter": {
+            "path": "/js-functions",
+            "title": "JS Functions",
+            "tags": []
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/functions.md"
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "id": "SitePage /twitch-api-migration",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0cbeac8a5b7d3061a67cd87c01557a3f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /wsl2-issues": {
+      "jsonName": "wsl-2-issues-f1e",
+      "internalComponentName": "ComponentWsl2Issues",
+      "path": "/wsl2-issues",
+      "component": "/home/almin/projects/Blog/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "posts",
+        "next": {
+          "frontmatter": {
+            "path": "/react-docker-development",
+            "title": "Dockerizing React",
+            "tags": [
+              "react",
+              "docker",
+              "development"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/react-docker.md"
+        },
+        "previous": {
+          "frontmatter": {
+            "path": "/twitch-api-migration",
+            "title": "Migrating from Kraken to Helix Twitch API",
+            "tags": [
+              "personal",
+              "project",
+              "API",
+              "twitch"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/twitch-api-update.md"
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "id": "SitePage /wsl2-issues",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5f3eeb37fe9314d94c8bcc47bc91b1b6",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /react-docker-development": {
+      "jsonName": "react-docker-development-f1d",
+      "internalComponentName": "ComponentReactDockerDevelopment",
+      "path": "/react-docker-development",
+      "component": "/home/almin/projects/Blog/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "posts",
+        "next": {
+          "frontmatter": {
+            "path": "/gitcredentials",
+            "title": "GIT credentials in WSL",
+            "tags": [
+              "git",
+              "setup",
+              "windows"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/gitcredentials.md"
+        },
+        "previous": {
+          "frontmatter": {
+            "path": "/wsl2-issues",
+            "title": "WSL2 3 Common issues and how to 'fix' them",
+            "tags": [
+              "wsl",
+              "console",
+              "optimization"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/wsl2starter.md"
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "id": "SitePage /react-docker-development",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "27c43bf621e3ebc68df58ef541c225fd",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /gitcredentials": {
+      "jsonName": "gitcredentials-48f",
+      "internalComponentName": "ComponentGitcredentials",
+      "path": "/gitcredentials",
+      "component": "/home/almin/projects/Blog/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "posts",
+        "next": {
+          "frontmatter": {
+            "path": "/filesizes",
+            "title": "Filesizes",
+            "tags": [
+              "rant"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/filesize.md"
+        },
+        "previous": {
+          "frontmatter": {
+            "path": "/react-docker-development",
+            "title": "Dockerizing React",
+            "tags": [
+              "react",
+              "docker",
+              "development"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/react-docker.md"
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "id": "SitePage /gitcredentials",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c30d4c26aba94ac4fccd69890af2b121",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /filesizes": {
+      "jsonName": "filesizes-551",
+      "internalComponentName": "ComponentFilesizes",
+      "path": "/filesizes",
+      "component": "/home/almin/projects/Blog/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "posts",
+        "next": {
+          "frontmatter": {
+            "path": "/azeroth-weather-makingof",
+            "title": "Making of Azeroth Weather",
+            "tags": [
+              "personal",
+              "project"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/azerothweather.md"
+        },
+        "previous": {
+          "frontmatter": {
+            "path": "/gitcredentials",
+            "title": "GIT credentials in WSL",
+            "tags": [
+              "git",
+              "setup",
+              "windows"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/gitcredentials.md"
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "id": "SitePage /filesizes",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0efc9125b3b8b3e88a61a2c4855d5ee3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /azeroth-weather-makingof": {
+      "jsonName": "azeroth-weather-makingof-958",
+      "internalComponentName": "ComponentAzerothWeatherMakingof",
+      "path": "/azeroth-weather-makingof",
+      "component": "/home/almin/projects/Blog/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "posts",
+        "next": {
+          "frontmatter": {
+            "path": "/website-speed",
+            "title": "Website Speed",
+            "tags": [
+              "website",
+              "speed",
+              "optimization"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/websiteSpeed.md"
+        },
+        "previous": {
+          "frontmatter": {
+            "path": "/filesizes",
+            "title": "Filesizes",
+            "tags": [
+              "rant"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/filesize.md"
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "id": "SitePage /azeroth-weather-makingof",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fb885e3ca74dea385dda53ea8f218867",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /website-speed": {
+      "jsonName": "website-speed-033",
+      "internalComponentName": "ComponentWebsiteSpeed",
+      "path": "/website-speed",
+      "component": "/home/almin/projects/Blog/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "posts",
+        "next": {
+          "frontmatter": {
+            "path": "/hello",
+            "title": "HelloWorld",
+            "tags": [
+              "hello",
+              "firstpost"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/hello.md"
+        },
+        "previous": {
+          "frontmatter": {
+            "path": "/azeroth-weather-makingof",
+            "title": "Making of Azeroth Weather",
+            "tags": [
+              "personal",
+              "project"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/azerothweather.md"
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "id": "SitePage /website-speed",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b1c050be0a8cb5e0a5f8959502d538b4",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hello": {
+      "jsonName": "hello-3ed",
+      "internalComponentName": "ComponentHello",
+      "path": "/hello",
+      "component": "/home/almin/projects/Blog/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "type": "posts",
+        "next": null,
+        "previous": {
+          "frontmatter": {
+            "path": "/website-speed",
+            "title": "Website Speed",
+            "tags": [
+              "website",
+              "speed",
+              "optimization"
+            ]
+          },
+          "fileAbsolutePath": "/home/almin/projects/Blog/src/posts/websiteSpeed.md"
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "id": "SitePage /hello",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c5506d465605e7e97cf5bfb52dffdb2f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/personal": {
+      "jsonName": "tag-personal-c7c",
+      "internalComponentName": "ComponentTagPersonal",
+      "path": "/tag/personal",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "personal",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/personal",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4c89bc8ffb4c95e3e0064d683acde8f9",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/project": {
+      "jsonName": "tag-project-f6f",
+      "internalComponentName": "ComponentTagProject",
+      "path": "/tag/project",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "project",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/project",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "583a52d5df5d585ffccb7b8acbe2c2c8",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/rant": {
+      "jsonName": "tag-rant-63f",
+      "internalComponentName": "ComponentTagRant",
+      "path": "/tag/rant",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "rant",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/rant",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5bdebd93b5a03d3b4a4e1dd53f72ae9b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/git": {
+      "jsonName": "tag-git-59f",
+      "internalComponentName": "ComponentTagGit",
+      "path": "/tag/git",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "git",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/git",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4aab1f0445169d5fa241021300c66cba",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/setup": {
+      "jsonName": "tag-setup-67f",
+      "internalComponentName": "ComponentTagSetup",
+      "path": "/tag/setup",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "setup",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/setup",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b055caf1ee761cdf3b879b7f8567d462",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/windows": {
+      "jsonName": "tag-windows-234",
+      "internalComponentName": "ComponentTagWindows",
+      "path": "/tag/windows",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "windows",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/windows",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7a0db2837034919c39f0a3be6c210f3e",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/hello": {
+      "jsonName": "tag-hello-c89",
+      "internalComponentName": "ComponentTagHello",
+      "path": "/tag/hello",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "hello",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/hello",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "91c722e22fbc936514be2f604561e7b0",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/firstpost": {
+      "jsonName": "tag-firstpost-165",
+      "internalComponentName": "ComponentTagFirstpost",
+      "path": "/tag/firstpost",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "firstpost",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/firstpost",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1ca7e4d7f95add6689dfa49b361df8e1",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/react": {
+      "jsonName": "tag-react-ca0",
+      "internalComponentName": "ComponentTagReact",
+      "path": "/tag/react",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "react",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/react",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "20695e964c3dbdca65780bb30e7500ca",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/docker": {
+      "jsonName": "tag-docker-41a",
+      "internalComponentName": "ComponentTagDocker",
+      "path": "/tag/docker",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "docker",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/docker",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fca2f348c051c78aa9c20ff190811cf3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/development": {
+      "jsonName": "tag-development-129",
+      "internalComponentName": "ComponentTagDevelopment",
+      "path": "/tag/development",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "development",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/development",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bdb90ff690d8964aa6076dd6603a34f1",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/API": {
+      "jsonName": "tag-api-d36",
+      "internalComponentName": "ComponentTagApi",
+      "path": "/tag/API",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "API",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/API",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c9ccb25c846e62d1c16d29e92f972d6d",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/twitch": {
+      "jsonName": "tag-twitch-070",
+      "internalComponentName": "ComponentTagTwitch",
+      "path": "/tag/twitch",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "twitch",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/twitch",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5a27e188d97ac1ca7215fd1743a4cb84",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/website": {
+      "jsonName": "tag-website-14c",
+      "internalComponentName": "ComponentTagWebsite",
+      "path": "/tag/website",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "website",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/website",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2cfa8a78e955a1ccec68ca9bee8e2a25",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/speed": {
+      "jsonName": "tag-speed-fcc",
+      "internalComponentName": "ComponentTagSpeed",
+      "path": "/tag/speed",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "speed",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/speed",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ffe006b3ccff6b405b21f93e940a09f3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/optimization": {
+      "jsonName": "tag-optimization-cb2",
+      "internalComponentName": "ComponentTagOptimization",
+      "path": "/tag/optimization",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "optimization",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/optimization",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2eac3857cf5cf914c122340151f7592a",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/wsl": {
+      "jsonName": "tag-wsl-6d2",
+      "internalComponentName": "ComponentTagWsl",
+      "path": "/tag/wsl",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "wsl",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/wsl",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c78fa36c61bb9680f90e0841e9e15efd",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tag/console": {
+      "jsonName": "tag-console-dba",
+      "internalComponentName": "ComponentTagConsole",
+      "path": "/tag/console",
+      "component": "/home/almin/projects/Blog/src/templates/tags.js",
+      "componentChunkName": "component---src-templates-tags-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "tag": "console",
+        "pageNumber": 0,
+        "humanPageNumber": 1,
+        "skip": 0,
+        "limit": 5,
+        "numberOfPages": 1,
+        "previousPagePath": "",
+        "nextPagePath": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "id": "SitePage /tag/console",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d9a944925df26aa718ac173d5c68ce2d",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/almin/projects/Blog/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "f428b15b-ae65-5773-aff1-b31d0342717b",
+      "pluginCreatorId": "f428b15b-ae65-5773-aff1-b31d0342717b",
+      "componentPath": "/home/almin/projects/Blog/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "098200b1aec377a0d0058a4b6fdf4dc9",
+        "description": "f428b15b-ae65-5773-aff1-b31d0342717b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/almin/projects/Blog/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/home/almin/projects/Blog/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "16a3bea6a0a850ef654bb5df27a2a14c",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "0cd4eb023b445a30b2d06c684b3aa443"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "index": "211/path---index-6a9-iF40eCiTIiZpqIWmr5fkgwLoq8",
+    "2-de0": "594/path---2-de-0-e4c-D0rnl2lPsTzbCJh9tnsX389I1EI",
+    "about-771": "104/path---about-771-2fe-bbRnRp8a4G8a6UXeODuR1Qg4qKc",
+    "js-functions-49a": "843/path---js-functions-49-a-c8b-VBt1NkYWuKf7fRTOT9UuXjDHzg",
+    "twitch-api-migration-30b": "480/path---twitch-api-migration-30-b-bd0-f067DY5UeDTjBoamV3tUiTTstt0",
+    "wsl-2-issues-f1e": "131/path---wsl-2-issues-f-1-e-c0e-cd1avQUqLmdK6qlioBDsXVl6apA",
+    "react-docker-development-f1d": "372/path---react-docker-development-f-1-d-466-8AxxqX3xMQznfzXVffYW4TVJb6U",
+    "gitcredentials-48f": "272/path---gitcredentials-48-f-684-7Rf66koOP1e2HAC0c7N1v6rc1E",
+    "filesizes-551": "272/path---filesizes-551-d72-ROA0ratNrFtz8qT9RnQlc4jEyI",
+    "azeroth-weather-makingof-958": "192/path---azeroth-weather-makingof-958-044-mW4ninFv6DolCAPYc9mQEYrG0",
+    "website-speed-033": "513/path---website-speed-033-1d8-AhvXobyppocvgoz0b3pojfgjKKQ",
+    "hello-3ed": "251/path---hello-3-ed-283-fGG2j5dZn9opN6jhwRv73KHtI4o",
+    "tag-personal-c7c": "75/path---tag-personal-c-7-c-8a8-eQz23GmMOKrhfnBRXyAQiYZdshM",
+    "tag-project-f6f": "55/path---tag-project-f-6-f-fa7-DG3I6UAkudQ1PVTduSgFQ9xcU",
+    "tag-rant-63f": "880/path---tag-rant-63-f-f8e-IQhREWfHxtndafvxi3SB3lic7B4",
+    "tag-git-59f": "295/path---tag-git-59-f-355-Q8QQTs2mVQ2Zk5l0a6JOxtmnoSE",
+    "tag-setup-67f": "513/path---tag-setup-67-f-260-FU4rrDF1NET1jYqM1P6oqwNaiY",
+    "tag-windows-234": "186/path---tag-windows-234-d0d-A84MYW4XvU2JfSvusCvQ1SA",
+    "tag-hello-c89": "377/path---tag-hello-c-89-a4f-7IMqRGR1lNQRUmcTEBwdMZk27U",
+    "tag-firstpost-165": "155/path---tag-firstpost-165-1c7-386ipOqSNaY9usaQMRj9ylXQOqA",
+    "tag-react-ca0": "853/path---tag-react-ca-0-fe7-B1VxtInZHfGci4COG70zDrLY",
+    "tag-docker-41a": "690/path---tag-docker-41-a-fe8-SiNK2pe4NoxrTN3aDDYDnfx7upY",
+    "tag-development-129": "978/path---tag-development-129-969-TcTLLbWXgnc49HzsffA6hrhMn0",
+    "tag-api-d36": "58/path---tag-api-d-36-d31-j62zBLTENKnLCvEWrk9iINeQBUk",
+    "tag-twitch-070": "540/path---tag-twitch-070-ac2-znZS5s7Uxf9eaiOJkXiXwMBBY",
+    "tag-website-14c": "557/path---tag-website-14-c-163-jXU30E0PlP0trOoVlWIGce2fmw",
+    "tag-speed-fcc": "476/path---tag-speed-fcc-a02-6oTGc5MDOkrfOltznzv9w330f7A",
+    "tag-optimization-cb2": "721/path---tag-optimization-cb-2-a7c-QUYuBPRkBsjogrR0jsXnBrC5Q",
+    "tag-wsl-6d2": "277/path---tag-wsl-6-d-2-ef4-NRqLNKgVXWx2rZEEiltGiJ5xY",
+    "tag-console-dba": "625/path---tag-console-dba-1eb-PojugmChvL5xVAVdm0MCiycgZs",
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8"
+  },
+  "components": {
+    "/home/almin/projects/Blog/src/templates/index.js": {
+      "query": "",
+      "componentPath": "/home/almin/projects/Blog/src/templates/index.js",
+      "pages": [
+        "/",
+        "/2"
+      ],
+      "isInBootstrap": true
+    },
+    "/home/almin/projects/Blog/src/templates/page.js": {
+      "query": "",
+      "componentPath": "/home/almin/projects/Blog/src/templates/page.js",
+      "pages": [
+        "/about",
+        "/js-functions",
+        "/twitch-api-migration",
+        "/wsl2-issues",
+        "/react-docker-development",
+        "/gitcredentials",
+        "/filesizes",
+        "/azeroth-weather-makingof",
+        "/website-speed",
+        "/hello"
+      ],
+      "isInBootstrap": true
+    },
+    "/home/almin/projects/Blog/src/templates/tags.js": {
+      "query": "",
+      "componentPath": "/home/almin/projects/Blog/src/templates/tags.js",
+      "pages": [
+        "/tag/personal",
+        "/tag/project",
+        "/tag/rant",
+        "/tag/git",
+        "/tag/setup",
+        "/tag/windows",
+        "/tag/hello",
+        "/tag/firstpost",
+        "/tag/react",
+        "/tag/docker",
+        "/tag/development",
+        "/tag/API",
+        "/tag/twitch",
+        "/tag/website",
+        "/tag/speed",
+        "/tag/optimization",
+        "/tag/wsl",
+        "/tag/console"
+      ],
+      "isInBootstrap": true
+    },
+    "/home/almin/projects/Blog/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/almin/projects/Blog/.cache/dev-404-page.js",
+      "pages": [
+        "/dev-404-page/"
+      ],
+      "isInBootstrap": true
+    },
+    "/home/almin/projects/Blog/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/home/almin/projects/Blog/src/pages/404.js",
+      "pages": [
+        "/404/",
+        "/404.html"
+      ],
+      "isInBootstrap": true
+    }
+  },
+  "staticQueryComponents": {}
+}

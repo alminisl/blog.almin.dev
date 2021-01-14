@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+
+:root {
+  --primary-color:#286FB4;
+  --primary-color-light: #4d7ca8;
+  /* --primary-color: #d23669;
+  --primary-color-light: rgb(255, 167, 196); */
+}
+
+:global * {
+  box-sizing: border-box;
+}
+
+:global html {
+  color: rgba(0, 0, 0, 0.9);
+  font: 100%/1.75 'Open Sans', Georgia, serif;
+  background-color: rgb(243, 243, 243);
+  /* color: white; */
+}
+
+:global body {
+  font-kerning: normal;
+  /* font-family: 'Merriweather','Georgia',serif; https://fonts.googleapis.com/css?family=Source+Code+Pro */ 
+  font-family: 'Open Sans', monospace;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+:global(pre),
+:global(code) {
+  font-family: Consolas, Menlo, Monaco, source-code-pro, "Courier New", monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+:global pre {
+  border-radius: 10px;
+  overflow: auto;
+  padding: 1em;
+}
+
+:global a {
+  color: var(--primary-color);
+}
+:global a:hover {
+  text-decoration: none;
+}
+
+:global p,
+:global pre,
+:global ul,
+:global ol {
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+}
