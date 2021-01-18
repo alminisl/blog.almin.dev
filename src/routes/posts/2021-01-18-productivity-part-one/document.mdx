@@ -1,17 +1,17 @@
-import photo from './stockphoto.png'
-import styles from './document.module.css'
+import photo from "./stockphoto.png";
+import styles from "./document.module.css";
 
 <div className={styles["logo"]}>
-    <img src={photo} alt="logo" />
+  <img src={photo} alt="logo" />
 </div>
 
-Productivity as a developer is the thing I've been focusing on for quiet a time. There are a lot of productivity tipps and tricks for how to time manage and become better and more productive. This is the first part of hopefully 2 where I will talk more about applications and the workflows I've been using and changing up - and how I test what productivity hacks works what not.
+Prductivity as a developer is the thing I've been focusing on for quiet a time.There are a lot of productivity tipps and tricks for how to time manage and become better and more productive.This is the first part of hopefully 2 where I will talk more about applications and the workflows I've been using and changing up - and how I test what productivity hacks works what not.
 
 I want to start with some basics in this blogpost.
 
 ## **What is productivity?**
 
-The [wikipedia](https://en.wikipedia.org/wiki/Productivity) definition is "**__Productivity describes various measures of the efficiency of production.__**". If productivity is the measure of efficency, what could that be in the context of development? Lines of Code? How much tickets did you move?
+The [wikipedia](https://en.wikipedia.org/wiki/Productivity) definition is "****Productivity describes various measures of the efficiency of production.****". If productivity is the measure of efficency, what could that be in the context of development? Lines of Code? How much tickets did you move?
 
 I also really like the "Productivity equiation" from Ali Abdaal:
 
@@ -31,7 +31,7 @@ So the options I was left with, change the technologies to something�
 
 Habits are a "easy" thing to change and result in the biggest payoff. If you can change your habits you can become a better developer period.I can give you a silly example from when I started working with Git the first time.
 
-As junior dev I've had the issue to push things that do not needed to be pushed in the repo, be it some .env file which was not in gitignore or some test functions I've written and did not delete at the time of creating a PR.I would see those things when I already created my pull request and it would result in my senior colleagues pointing out the obvious and "wasting" their and minetime to remove a function or file which should not be there in the first place. So I've set a small pre-commit hook as a bash script (The idea for it can be found on this [link]([https://stackoverflow.com/questions/45416049/how-to-make-a-git-pre-commit-hook-that-checks-the-commit-message](https://stackoverflow.com/questions/45416049/how-to-make-a-git-pre-commit-hook-that-checks-the-commit-message)))which echoes a message: "CHECK YOUR FILES" everytime I would make a commit, so I'm reminded to check on the files I'm trying to push.Over time that helped me develop a habit to always check the code before pushing if there are any files that are unnecessary or just test code which should be removed.
+As junior dev I've had the issue to push things that do not needed to be pushed in the repo, be it some .env file which was not in gitignore or some test functions I've written and did not delete at the time of creating a PR.I would see those things when I already created my pull request and it would result in my senior colleagues pointing out the obvious and "wasting" their and minetime to remove a function or file which should not be there in the first place. So I've set a small pre-commit hook as a bash script (The idea for it can be found on this [link](<[https://stackoverflow.com/questions/45416049/how-to-make-a-git-pre-commit-hook-that-checks-the-commit-message](https://stackoverflow.com/questions/45416049/how-to-make-a-git-pre-commit-hook-that-checks-the-commit-message)>))which echoes a message: "CHECK YOUR FILES" everytime I would make a commit, so I'm reminded to check on the files I'm trying to push.Over time that helped me develop a habit to always check the code before pushing if there are any files that are unnecessary or just test code which should be removed.
 
 This is just a small example of how to "actively" change some of your habits and making yourself aware of things that need to be done.
 
