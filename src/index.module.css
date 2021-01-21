@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,700i');
 
 :root {
   --primary-color:#286FB4;
@@ -21,7 +21,9 @@
 :global body {
   font-kerning: normal;
   /* font-family: 'Merriweather','Georgia',serif; https://fonts.googleapis.com/css?family=Source+Code+Pro */ 
-  font-family: 'Open Sans', monospace;
+  /* font-family: 'Open Sans', monospace;
+   */
+   font-family: 'Ubuntu', sans-serif;
   font-feature-settings: "kern", "liga", "clig", "calt";
   font-weight: 400;
   margin: 0;
