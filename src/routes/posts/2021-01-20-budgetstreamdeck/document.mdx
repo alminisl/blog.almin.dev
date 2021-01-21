@@ -92,6 +92,10 @@ var board = new five.Board({
   port: "COM3"
 });
 
+
+// The Board class constructs objects that represent the physical board itself. 
+// All device objects depend on an initialized and ready board object.
+// Essentially all code you write should be in the board object in the 'ready' event
 board.on("ready", function() {
 
   // Create a new `button` hardware instance.
@@ -148,8 +152,9 @@ The pin on the Arduino board should be set here as the button:
 ```javascript
 button = new five.Button(2);
 ```
+Later you can declare new buttons with the same code, just remember to select the correct Digital pin number on which the button is connected. (Usually from 0 to 13)
 
-And [RobotJs](https://github.com/octalmage/robotjs) is being used to setup the keyboard shortcuts with the `down` and `up` events which are triggered when pressing the button. 
+And [RobotJs](https://github.com/octalmage/robotjs) is being used to setup the keyboard shortcuts with the `down` and `up` events which are triggered when pressing the button. It is just a simple library which simulates the keyboard inputs. This is really the first solution I could find and easiest I could make work, there could be potentially something better, but I've settled with what works. Also remember to use KeyToggle function and not keyTap. So you can add additional shortcuts, which make you leave the call or copy - paste, change scenes, essentially almost everything you can do with a StreamDeck.
 
 So, in just a few steps you can have a custom macro keyboard. It is supriseingly not that hard, especially if you have the possibility to write JS and make it work with it. 
 
