@@ -6,20 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-56814604-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56814604-5"></script>
+    <script>      
+        function getCookie(cname) {
+          var name = cname + "=";
+          var decodedCookie = decodeURIComponent(document.cookie);
+          var ca = decodedCookie.split(';');
+          for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+              c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+              return c.substring(name.length, c.length);
+            }
+          }
+          return "";
+        }
 
-  gtag('config', 'UA-56814604-5');
-</script>
+        if(getCookie("consentCookie")) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-56814604-5');
+        }
+  </script>
 <!-- Panelbear Analytics - We respect your privacy -->
-<script async src="https://cdn.panelbear.com/analytics.js?site=FY3CddPqnSI"></script>
-<script>
-    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
-    panelbear('config', { site: 'FY3CddPqnSI' });
-</script>
+    <script async src="https://cdn.panelbear.com/analytics.js?site=FY3CddPqnSI"></script>
+    <script>
+       if(getCookie("consentCookie")) {
+        window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+        panelbear('config', { site: 'FY3CddPqnSI' });
+       }
+    </script>
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/

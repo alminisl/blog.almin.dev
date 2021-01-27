@@ -12,6 +12,7 @@
     "netlify-cli": "^2.6.0",
     "prismjs": "^1.15.0",
     "react": "^16.8.6",
+    "react-cookie-consent": "^6.2.1",
     "react-dom": "^16.8.6",
     "react-navi": "^0.13.3",
     "react-navi-helmet-async": "^0.13.3",
