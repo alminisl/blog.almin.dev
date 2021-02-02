@@ -1,6 +1,6 @@
 export default {
-    title: 'Developer productivity (part 1)',
+    title: 'Developer productivity (part 2)',
     tags: ['personal', 'project', 'productivity'],
-    spoiler: "Productivity overview",
+    spoiler: "Tools and Worlflows",
     getContent: () => import('./document.mdx'),
   }
