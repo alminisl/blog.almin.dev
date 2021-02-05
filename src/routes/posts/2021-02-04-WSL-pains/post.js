@@ -1,6 +1,6 @@
 export default {
-    title: 'Developer productivity (part 2)',
-    tags: ['personal', 'project', 'productivity'],
+    title: 'Some post mortem on WSL Networking which I had to experience yesterday. ',
+    tags: ['project', 'WSL'],
     spoiler: "Tools and Worlflows",
     getContent: () => import('./document.mdx'),
 }
