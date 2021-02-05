@@ -1,7 +1,7 @@
  
 Since I run my dev enviroment on MS WSL, I had the need to access my web app from another device. Usually if a web server is running on your PC you can easily access it by typing the PC IP and Port. However, Windows is NAT-ing the connection to WSL and that results in WSL having its own IP range and subnet. So the only one knowing about the WSL netowrk is the host PC. 
  
-WSL1 had a proxy I think, It worked out of the box and for some reason they removed that from WSL2. More info here on (Microsoft Page)[https://docs.microsoft.com/en-us/windows/wsl/compare-versions#accessing-a-wsl-2-distribution-from-your-local-area-network-lan] 
+WSL1 had a proxy I think, It worked out of the box and for some reason they removed that from WSL2. More info here on (https://docs.microsoft.com/en-us/windows/wsl/compare-versions#accessing-a-wsl-2-distribution-from-your-local-area-network-lan)[Microsoft Page] 
  
 Now, what I had to do with my WSL to be able to share the connection is run the powershell command:
 
