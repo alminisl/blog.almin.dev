@@ -6,7 +6,7 @@ import styles from "./document.module.css";
     <img src={rpi} />
 </div>
 
-I was thinking "Why should I pay for a server when I have 2 Raspberry Pi's laying around which can do the things I need faster + they are under my control?". 
+I was thinking "Why should I pay for a server when I have 2 Raspberry Pi's laying around which can do the smae thing and more as a VPS + they are under my control?". 
 And this is exactly what i did. 
 
 Short summary: 
@@ -55,7 +55,6 @@ server {
 ```
 - So to explain a bit, the important part here is to set the `server_name` which should be your Domain. For example for hedlajn.info I've used `api.hedlajn.info` to point to the nginx - which results in redirecting to the `proxy_pass` which is the app running. So when pinging the URL my Nginx will return the result of the proxy. 
 
-### Bonus: Repeat this part and you can add as many projects / websites as you want onto your raspberry pi or any other web server which has nginx. 
 
 - Last step, we need to link to `sites-enabled` from our `sites-available` and that is easy as executing this: 
 
@@ -65,6 +64,8 @@ sudo ln -s /etc/nginx/sites-available/my-site sites-enabled/my-site
 ```
 
 then just restart the nginx `sudo /etc/init.d/nginx restart` and viola! You have setup a nginx server on your Raspberry pi! 
+
+### Bonus: Repeat this part and you can add as many projects / websites as you want onto your raspberry pi or any other web server which has nginx. 
 
 ## Running the node app (API)
 
