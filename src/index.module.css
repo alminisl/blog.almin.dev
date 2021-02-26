@@ -13,7 +13,7 @@
 
 :global html {
   color: rgba(0, 0, 0, 0.9);
-  font: 100%/1.75 'Open Sans', Georgia, serif;
+  /* font: 100%/1.75 'Open Sans', Georgia, serif; */
   background-color: rgb(243, 243, 243);
   /* color: white; */
 }
