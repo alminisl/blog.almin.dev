@@ -43,7 +43,7 @@ vim my-site
 
 - Set the following config in the file: 
 
-```
+```nginx
 server {
     listen 0.0.0.0:80;
     server_name my-site.com;
@@ -62,7 +62,7 @@ server {
 
 - Last step, we need to link to `sites-enabled` from our `sites-available` and that is easy as executing this: 
 
-```
+```bash
 cd /etc/nginx
 sudo ln -s /etc/nginx/sites-available/my-site sites-enabled/my-site
 ```
@@ -89,13 +89,13 @@ Easy, `git clone project` after that i just `cd project` and `pm2 start index.js
 
 One last thing is configuring the SSL certificates so that I can access my API over the internet using https. This is also very simple I just used the [CertBot](https://certbot.eff.org/) - but to save you some time debugging issues with cert bot on raspberry pi, the issues is that on the RPI you have to use the python version like this: 
 
-```
+```bash
 sudo apt-get install certbot python-certbot-nginx
 ```
 
 and start it 
 
-```
+```bash
 sudo certbot --nginx
 ```
 
