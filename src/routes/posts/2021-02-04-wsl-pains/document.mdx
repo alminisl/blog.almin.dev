@@ -18,3 +18,8 @@ Also you need to change Windows firewall settings and allow inbound connections 
 Now, after restarting windows - the config is being reset because the WSL IP is always being changed after restart. After some digging I found a way to make this "permanent" by running task scheduler on windows and calling this script every time the PC starts - [github link](https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723)
  
 I was so dissapointed in this networking implementation on WSL2 compared to WSL1. I hope this is fixed since these steps are just insane.
+
+
+**Update** 
+
+Thanks to the lovely people of the Twitters, I give you a link to [Scott Hanselmans blogpost](https://www.hanselman.com/blog/page/1) about Tailscale, which essentially helps with this and makes it a bit easier. 
