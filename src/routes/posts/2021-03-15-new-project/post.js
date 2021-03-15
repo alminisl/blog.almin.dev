@@ -1,6 +1,6 @@
 export default {
     title: 'New Project Idea',
     tags: ['project', 'linux', 'raspberry', 'music'],
-    spoiler: "Tools and Worlflows",
+    spoiler: "",
     getContent: () => import('./document.mdx'),
 }
