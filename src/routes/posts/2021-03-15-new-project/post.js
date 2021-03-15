@@ -1,6 +1,6 @@
 export default {
-    title: 'Setting up a private web server to host my API - Raspberry pi',
-    tags: ['project', 'linux', 'raspberry', 'nginx', 'ssl'],
+    title: 'New Project Idea',
+    tags: ['project', 'linux', 'raspberry', 'music'],
     spoiler: "Tools and Worlflows",
     getContent: () => import('./document.mdx'),
 }
