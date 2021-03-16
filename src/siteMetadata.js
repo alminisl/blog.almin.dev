@@ -4,8 +4,8 @@ export default {
   title: "Almin's Blog",
 
   author: "Almin Islamovic",
-  description: "A clone of Dan Abramov's overreacted.io using create-react-app-mdx and Navi",
+  description: "My little corner of the internet where I share my knowledge, ramble or just have fun!",
 
   // The number of posts to a page on the site index.
-  indexPageSize: 10,
+  indexPageSize: 20,
 }

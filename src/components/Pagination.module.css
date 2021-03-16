@@ -1,6 +1,7 @@
 .Pagination {
   display: block;
   margin: 4.375rem 0 7rem;
+  height: 100vh;
 }
   
 .Pagination .previous {

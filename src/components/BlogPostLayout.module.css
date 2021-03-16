@@ -12,7 +12,7 @@
   margin-bottom: 2.4rem;  
 }
 .header .title {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   margin-top: 1.7rem;
   margin-bottom: 0;
 }
@@ -21,7 +21,8 @@
 }
 
 .footer {
-  margin-top: 7rem;
+  bottom: 0;
+  margin-bottom:2rem;
 }
 .footer .title {
   font-size: 1.44rem;
@@ -113,8 +114,8 @@
 /* Inline code */
 .content :not(pre) > code {
   border-radius: .3em;
-  background: rgba(255,229,100,0.2);
-  color:black;
+  background: rgba(112, 112, 112, 0.2);
+  color: white;
   padding: .15em .2em .05em;
   white-space: normal;
   font-style: italic;

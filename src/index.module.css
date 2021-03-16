@@ -12,23 +12,36 @@
 }
 
 :global html {
+  /* Default White theme? */
   color: rgba(0, 0, 0, 0.9);
   /* font: 100%/1.75 'Open Sans', Georgia, serif; */
-  background-color: rgb(243, 243, 243);
+  /*background-color: rgb(243, 243, 243);*/ 
+  background-color: rgb(23, 25, 26);
   /* color: white; */
 }
 
+@font-face {
+  font-family: 'Menlo Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Menlo Regular'), url('./components/fonts/Menlo-Regular.woff') format('woff');
+  }
+
 :global body {
   font-kerning: normal;
+  /* TODO: Fix this mess with font-family */
   /* font-family: 'Merriweather','Georgia',serif; https://fonts.googleapis.com/css?family=Source+Code+Pro */ 
-  /* font-family: 'Open Sans', monospace;
-   */
-   font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Open Sans', monospace;*/
+  /* font-family: 'Ubuntu', sans-serif;*/
+   /* font-family: 'Menlo Regular', sans-serif; */
+   /* font-family: 'Ubuntu', sans-serif; */
+   font-family: "Menlo", "Meslo LG", monospace;
   font-feature-settings: "kern", "liga", "clig", "calt";
   font-weight: 400;
   margin: 0;
   padding: 0;
   word-wrap: break-word;
+  
 }
 
 :global(pre),
