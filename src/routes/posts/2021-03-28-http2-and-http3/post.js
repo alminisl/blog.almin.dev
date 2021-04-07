@@ -1,5 +1,5 @@
 export default {
-    title: 'Interesting links I came across this week',
+    title: 'HTTP2 and HTTP3',
     tags: ['learning', 'reference', 'links'],
     spoiler: "",
     getContent: () => import('./document.mdx'),
