@@ -38,7 +38,11 @@ Essentially you can not use your Basic Authentication anymore as in your Github 
 
 ### Setting up the PAT Authentication
 
-Now, what we have to do is to do a `git pull` or `git push` in the repository we have where we will get the git prompt to enter the username and password. However, we will cancel this and instead we will write `git config credential.helper cache`
+Now, what we have to do is to do a `git pull` or `git push` in the repository we have where we will get the git prompt to enter the username and password. However, we will cancel this and instead we will write
+
+```
+git config --global credential.helper cache
+```
 
 This will save our next prompt for username and password (in our case our PAT) and we will not need to enter it again. So after execting this command we just `git pull / push` and the prompt should appear again. Enter our github username and our PAT as password and this is it. Until the the token expires we have our credentials set.
 
